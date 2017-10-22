@@ -7,10 +7,10 @@
 		<title>reveal.js</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/beige.css">
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="lib/css/atom-one-light.css">
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -24,8 +24,179 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<hi>Как переписать крупный проект на Angular и (не) впасть в депрессию</hi>
+					<p>
+						<small>Илья Таратухин / <a href="http://twitter.com/darkilfa">@darkilfa</a></small>
+					</p>
+				</section>
+				<section>Докладчик</section>
+				<section>
+					<h3>О чем будем говорить?</h3>
+					<ul>
+						<li>О проекте и проблемах</li>
+						<li>Проблемы ангуляра</li>
+						<li>Проблемы проектирования</li>
+						<li>Вредные советы от Google</li>
+						<li>Что же делать?</li>
+					</ul>
+				</section>
+				<section>
+					<section>
+						<h1>С чем имеем дело?</h1>
+					</section>
+					<section>
+						<ul>
+							<li>10 лет проекту</li>
+							<li class="fragment">legacy код на Extjs и велосипедах</li>
+							<li class="fragment">50+ разработчиков на одном проекте</li>
+							<li class="fragment">Новый код dart + Angular</li>
+							<li class="fragment">Разработчики все те же</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Angular и его особенности</h1>
+					</section>
+					<section>
+						<h2>Change detection</h2>
+						<ui>
+							<li>Default</li>
+							<li>OnPush</li>
+						</ui>
+					</section>
+					<section>
+						<h2>Dependency injection</h2>
+					</section>
+					<section>
+						<h2>Dynamic components</h2>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Input</h1>
+					</section>
+					<section>
+						<pre class="stretch"><code class="typescript" data-trim data-noescape>
+@Component{
+	selector: 'custom-input'
+}
+class CustomInput {
+	@Input() value: String;
+	@Input() label: String;
+	@Output() change: EventEmitter&lt;any&gt; = new EventEmitter();<mark class="fragment spy dot" data-fragment-index="1">
+
+	@Input() size: String; // s, m, l, xl</mark><mark class="fragment spy dot" data-fragment-index="2">
+	@Input() type: String; // default, light, invisible</mark><mark class="fragment spy dot" data-fragment-index="3">
+	@Input() fieldType: String; // text, email, number, password</mark><mark class="fragment spy dot">
+	@Input() isReadonly: Bool;</mark><mark class="fragment spy dot">
+	@Input() isAutocomplete: Bool;</mark><mark class="fragment spy dot">
+
+	@Output() focus: EventEmitter&lt;any&gt; = new EventEmitter();</mark><mark class="fragment spy dot">
+	@Output() blur: EventEmitter&lt;any&gt; = new EventEmitter();</mark><mark class="fragment spy dot">
+
+	focus(): void {}</mark><mark class="fragment spy dot">
+	...</mark>
+}
+						</code></pre>
+						<span class="fragment fade-in" data-fragment-index="0">
+						<img class="mock fragment fade-out" src="img/input.png" data-fragment-index="3"/>
+						</span>
+						<!--<span class="fragment fade-in"><span class="fragment fade-out">@Input() size: String; // s, m, l, xl</span></span>-->
+					</section>
+					<section>
+						<pre class="stretch"><code class="typescript" data-trim data-noescape>
+// custom input template
+
+&lt;input class="input-text"<mark class="fragment dot spy">
+	ref-input</mark><mark class="fragment dot spy">
+
+	[type]="type"
+	[disabled]="isDisabled"
+	[placeholder]="placeholderText"
+	[readonly]="isReadonly"
+	[autocomplete]="autocomplete"</mark><mark class="fragment dot spy">
+
+	(input)="onChange($event)"
+	(focus)="onFocus($event)"
+	(blur)="onBlur($event)"</mark>/&gt;
+
+<mark class="fragment dot">&lt;label *ngIf="isLabelNotEmpty"
+  <mark>(click)="focus()"</mark>&gt;
+	{{ label }}
+&lt;/label&gt;</mark>
+						</code></pre>
+						<span class="fragment"></span>
+					</section>
+					<section>
+						<pre><code class="typescript" data-trim data-noescape>
+@Component{
+	selector: '[input]custom-input'
+}
+class CustomInput {<mark class="fragment dot" data-fragment-index="2">
+	@Input() size: String; // s, m, l, xl</mark><mark class="fragment dot" data-fragment-index="3">
+	@Input() skin: String; // default, light, invisible</mark>
+}
+						</code><code class="html" data-trim data-noescape><mark class="fragment dot" data-fragment-index="5">
+&lt;input-wrapper [label]="labelText"&gt;</mark>
+    <mark class="fragment dot" data-fragment-index="1">&lt;input custom-input
+	[type]="'password'"<mark class="fragment spy dot" data-fragment-index="4">
+	[size]="'m'" [skin]="'light'"</mark>/&gt;</mark><mark class="fragment dot" data-fragment-index="5">
+&lt;input-wrapper/&gt;</mark>
+						</code></pre>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Начинающий разработчик на Angular и его болезни</h1>
+					</section>
+					<section>
+						<h1>Tooltip</h1>
+					</section>
+					<section>
+						<pre><code class="html">
+&lt;tooltip
+	[trigger]="'click'"
+	[position]="'right'"
+	[target]="buttonRef"&gt;
+	Tooltip content
+&lt;/tooltip&gt;
+						</code></pre>
+						<pre><code class="typescript">
+class Tooltip {
+	@Input() trigger: String;
+	@Input() position: String;
+	@Input() target: Element;
+}
+						</code></pre>
+					</section>
+					<section>
+						<pre><code class="typescript" data-trim data-noescape>
+class Tooltip {
+	@Input() trigger: String;
+	@Input() position: String;
+	@Input() target: Element;<mark class="fragment spy dot">
+	open(): void {}</mark><mark class="fragment spy dot">
+	close(): void {}</mark><mark class="fragment spy dot">
+	@Output() onOpen: EventEmitter&lt;any&gt; = new EventEmitter();</mark><mark class="fragment spy dot">
+	@Output() onClose: EventEmitter&lt;any&gt; = new EventEmitter();</mark>
+}
+						</code></pre>
+					</section>
+					<section>
+						<pre><code class="typescript" data-trim data-noescape>
+class Tooltip {
+	@Input() position: String;
+}
+						</code></pre>
+						<pre class="fragment"><code class="html" data-trim data-noescape>
+&lt;tooltip<mark class="fragment spy"> *ngIf="isOpened"</mark>&gt;
+	Tooltip content
+&lt;/tooltip&gt;
+						</code></pre>
+					</section>
+				</section>
 			</div>
 		</div>
 
@@ -37,6 +208,11 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+//                width: 1920,
+//                height: 1080,
+//                minScale: 1,
+//                maxScale: 1,
+//				margin: 0.1,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },

@@ -1467,3 +1467,42 @@ body {
 .zoomed .reveal .roll span:after {
 	visibility: hidden;
 }
+
+/*********************************************
+ * USER STYLES
+ *********************************************/
+
+.reveal mark {
+  &.dot.visible {
+    background-color: transparent;
+    &.current-fragment {
+      background-color: yellow;
+    }
+  }
+}
+
+.reveal mark, .reveal span {
+  &.spy {
+    display: none;
+    &.visible {
+      display: inline;
+    }
+  }
+}
+
+.reveal pre code {
+  //font-size: 40px;
+  //line-height: 45px
+}
+
+.reveal pre.stretch code {
+  //padding: 40px 100px;
+}
+
+.reveal section img.mock {
+  position: absolute;
+  left: 0;
+  bottom: 25px;
+  border: none;
+  max-width: 100%;
+}
