@@ -57,7 +57,7 @@
 				</section>
 				<section>
 					<section>
-						<h1>Angular и его особенности</h1>
+						<h1>Angular, any problems?</h1>
 					</section>
 					<section>
 						<h2>Change detection</h2>
@@ -67,13 +67,52 @@
 						</ui>
 					</section>
 					<section>
+						How CD works
+					</section>
+					<section>
+						Example with cd loop
+
+						class HighLevelComponent {
+							ngOnChanges() {
+								state = new state(params);
+							}
+						}
+					</section>
+					<section>
 						<h2>Dependency injection</h2>
 					</section>
 					<section>
 						<h2>Dynamic components</h2>
 					</section>
+					<section>
+						<h2>ContentChildren</h2>
+						<ul>
+							<li class="fragment">Not same as &lt;ng-content&gt;</li>
+							<li class="fragment">DI works from component description point</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Template</h2>
+						<ul>
+							<li class="fragment">NgTemplateOutlet</li>
+							<li class="fragment">ViewContainerRef.createEmbeddedView</li>
+							<li class="fragment">ViewContainerRef.createComponent</li>
+						</ul>
+					</section>
+					<section data-background-image="img/dynamic.png" data-background-position="center" data-background-size="contain">
+					</section>
+					<section>
+						<ul>
+							<li class="fragment">Use OnPush</li>
+							<li class="fragment">Don't use DI for horizontal connections</li>
+							<li class="fragment">Avoid dynamic components</li>
+						</ul>
+					</section>
 				</section>
 				<section>
+					<section>
+						<h1>Newbie Angular developer and what can goes wrong?</h1>
+					</section>
 					<section>
 						<h1>Input</h1>
 					</section>
@@ -146,11 +185,6 @@ class CustomInput {<mark class="fragment dot" data-fragment-index="2">
 &lt;input-wrapper/&gt;</mark>
 						</code></pre>
 					</section>
-				</section>
-				<section>
-					<section>
-						<h1>Начинающий разработчик на Angular и его болезни</h1>
-					</section>
 					<section>
 						<h1>Tooltip</h1>
 					</section>
@@ -196,6 +230,46 @@ class Tooltip {
 &lt;/tooltip&gt;
 						</code></pre>
 					</section>
+					<section>
+						<ul>
+							<li class="fragment">Don't wrap native elements</li>
+							<li class="fragment">Write stateless components</li>
+							<li class="fragment">Write simple components</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Need more advices?</h2>
+						<ul class="fragment">
+							<li>Use sandbox!</li>
+						</ul>
+					</section>
+					<section data-background-image="img/demo1.png" data-background-size="contain"></section>
+					<section data-background-image="img/demo2.png" data-background-size="contain"></section>
+					<section>
+						<h2>Angular can be useless and annoying</h2>
+						<ul>
+							<li class="fragment">Too much change detection</li>
+							<li class="fragment">Need to trigger change detection manually</li>
+							<li class="fragment">You have it on other tech stack?</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Use external library!</h2>
+					</section>
+				</section>
+				<section>
+					<h2>Result</h2>
+					<ul>
+						<li class="fragment">OnPush</li>
+						<li class="fragment">Unidirectional data flow</li>
+						<li class="fragment">Stateless components</li>
+						<li class="fragment">Avoid dynamic components</li>
+						<li class="fragment">Don't wrap native elements</li>
+						<li class="fragment">Use sandbox</li>
+						<li class="fragment">It's OK to use other library</li>
+					</ul>
 				</section>
 			</div>
 		</div>
