@@ -47,11 +47,11 @@
 					</section>
 					<section>
 						<ul>
-							<li>10 лет проекту</li>
-							<li class="fragment">legacy код на Extjs и велосипедах</li>
-							<li class="fragment">50+ разработчиков на одном проекте</li>
-							<li class="fragment">Новый код dart + Angular</li>
-							<li class="fragment">Разработчики все те же</li>
+							<li class="fragment">Project with 10 years history</li>
+							<li class="fragment">Legacy code running on Extjs + bicycles</li>
+							<li class="fragment">50+ people develop one project</li>
+							<li class="fragment">New code runs on dart + Angular</li>
+							<li class="fragment">Developers the same</li>
 						</ul>
 					</section>
 				</section>
@@ -70,13 +70,23 @@
 						How CD works
 					</section>
 					<section>
-						Example with cd loop
+						<pre class="stretch"><code class="typescript" data-trim data-noescape>
+class LowLevelComponent implements OnChanges{<mark class="fragment spy dot">
+  ngOnChanges(changes: SimpleChanges) {<mark class="fragment spy dot">
+	setTimeout(() => {
+	  this.state = await buildState(changes);<mark class="fragment spy dot">
+	  cdr.markForCheck();
+	  cdr.detectChanges();</mark>
+	}, 0);</mark>
+  }</mark>
+}<mark class="fragment spy dot">
 
-						class HighLevelComponent {
-							ngOnChanges() {
-								state = new state(params);
-							}
-						}
+class HighLevelComponent {<mark class="fragment spy dot">
+  get state(): ComponentState {<mark class="fragment spy dot">
+    return new ComponentState();
+  </mark>}</mark>
+}</mark>
+						</code></pre>
 					</section>
 					<section>
 						<h2>Dependency injection</h2>
