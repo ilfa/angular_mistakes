@@ -25,25 +25,34 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<hi>Как переписать крупный проект на Angular и (не) впасть в депрессию</hi>
+					<h4>Как переписать крупный проект на Angular и (не) впасть в депрессию</h4>
 					<p>
 						<small>Илья Таратухин / <a href="http://twitter.com/darkilfa">@darkilfa</a></small>
 					</p>
 				</section>
-				<section>Докладчик</section>
-				<section>
-					<h3>О чем будем говорить?</h3>
-					<ul>
-						<li>О проекте и проблемах</li>
-						<li>Проблемы ангуляра</li>
-						<li>Проблемы проектирования</li>
-						<li>Вредные советы от Google</li>
-						<li>Что же делать?</li>
-					</ul>
-				</section>
 				<section>
 					<section>
-						<h1>С чем имеем дело?</h1>
+						<h3>Speaker</h3>
+						<ul>
+							<li class="fragment">7 years in frontend</li>
+							<li class="fragment">5,5 years in 2GIS</li>
+							<li class="fragment">Knockoutjs -> own framework -> React</li>
+							<li class="fragment">1,5 года в Wrike</li>
+							<li class="fragment">Dart + Angular</li>
+						</ul>
+					</section>
+					<section>
+						<h3>О чем будем говорить?</h3>
+						<ul>
+							<li>О проекте и проблемах</li>
+							<li>Проблемы ангуляра</li>
+							<li>Проблемы проектирования</li>
+							<li>Вредные советы от Google</li>
+							<li>Что же делать?</li>
+						</ul>
+					</section>
+					<section>
+						<h3>What is Wrike for FE developers?</h3>
 					</section>
 					<section>
 						<ul>
@@ -57,17 +66,50 @@
 				</section>
 				<section>
 					<section>
-						<h1>Angular, any problems?</h1>
+						<h3>Angular, any problems?</h3>
 					</section>
 					<section>
 						<h2>Change detection</h2>
-						<ui>
-							<li>Default</li>
-							<li>OnPush</li>
-						</ui>
 					</section>
 					<section>
-						How CD works
+						<h2>Default change detection</h2>
+					</section>
+					<section data-background-image="img/CD0.svg" data-background-transition="none"></section>
+					<section data-background-image="img/CD1.svg" data-background-transition="none"></section>
+					<section data-background-image="img/CD2.svg" data-background-transition="none"></section>
+					<section data-background-image="img/CD3.svg" data-background-transition="none"></section>
+					<section data-background-image="img/CD4.svg" data-background-transition="none"></section>
+					<section>
+						<h2>Default change detection</h2>
+						<ul>
+							<li class="fragment">Each zone update</li>
+							<li class="fragment">Checks all tree from root</li>
+						</ul>
+					</section>
+					<section>
+						<h2>OnPush change detection</h2>
+					</section>
+					<section data-background-image="img/CD0.svg" data-background-transition="none"></section>
+					<section data-background-image="img/CD1.svg" data-background-transition="none"></section>
+					<section data-background-image="img/CD2.svg" data-background-transition="none"></section>
+					<section data-background-image="img/CD10.svg" data-background-transition="none"></section>
+					<section data-background-image="img/CD11.svg" data-background-transition="none"></section>
+					<section>
+						<h2>OnPush change detection</h2>
+						<ul>
+							<li class="fragment">Each zone update</li>
+							<li class="fragment">Don't go down if node clear</li>
+							<li class="fragment">But event marks subtree up to root</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Can I control CD manually?</h2>
+						<ul>
+							<li class="fragment">markForCheck - for mark subtree up to root</li>
+							<li class="fragment">detectChanges - for trigger CD</li>
+							<li class="fragment">detach - for skip CD cycles</li>
+							<li class="fragment">reattach - cancel detach</li>
+						</ul>
 					</section>
 					<section>
 						<pre class="stretch"><code class="typescript" data-trim data-noescape>
@@ -89,20 +131,20 @@ class HighLevelComponent {<mark class="fragment spy dot">
 						</code></pre>
 					</section>
 					<section>
-						<h2>Dependency injection</h2>
+						<h3>Dependency injection</h3>
 					</section>
 					<section>
-						<h2>Dynamic components</h2>
+						<h3>Dynamic components</h3>
 					</section>
 					<section>
-						<h2>ContentChildren</h2>
+						<h3>ContentChildren</h3>
 						<ul>
 							<li class="fragment">Not same as &lt;ng-content&gt;</li>
 							<li class="fragment">DI works from component description point</li>
 						</ul>
 					</section>
 					<section>
-						<h2>Template</h2>
+						<h3>Template</h3>
 						<ul>
 							<li class="fragment">NgTemplateOutlet</li>
 							<li class="fragment">ViewContainerRef.createEmbeddedView</li>
@@ -121,10 +163,11 @@ class HighLevelComponent {<mark class="fragment spy dot">
 				</section>
 				<section>
 					<section>
-						<h1>Newbie Angular developer and what can goes wrong?</h1>
+						<h3>Newbie Angular developer</h3>
+						<h3 class="fragment">What can goes wrong?</h3>
 					</section>
 					<section>
-						<h1>Input</h1>
+						<h3>Input</h3>
 					</section>
 					<section>
 						<pre class="stretch"><code class="typescript" data-trim data-noescape>
@@ -250,7 +293,7 @@ class Tooltip {
 				</section>
 				<section>
 					<section>
-						<h2>Need more advices?</h2>
+						<h3>Need more advices?</h3>
 						<ul class="fragment">
 							<li>Use sandbox!</li>
 						</ul>
