@@ -131,7 +131,29 @@ class HighLevelComponent {<mark class="fragment spy dot">
 						</code></pre>
 					</section>
 					<section>
-						<h3>Dependency injection</h3>
+						<h3>Dependency injection<span class="fragment"> good parts</span></h3>
+						<ul>
+							<li class="fragment">Get access to angular magic (element, zone, change detector)</li>
+							<li class="fragment">Easy to build event bus through app</li>
+							<li class="fragment">A lot of OOP magic from the box</li>
+							<li class="fragment">Great instrument for unit testing</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Dependency injection bad parts</h3>
+						<ul>
+							<li class="fragment">Unobvious dependencies</li>
+							<li class="fragment">With great power there must also come great responsibility</li>
+							<li class="fragment">Works declarative</li>
+						</ul>
+					</section>
+					<section>
+						<pre><code class="html" data-trim data-noescape>
+&lt;menu&gt;
+	&lt;menu-item&gt;Item 1&lt;/menu-item&gt;
+	&lt;menu-item&gt;Item 2&lt;/menu-item&gt;
+&lt;/menu&gt;
+						</code></pre>
 					</section>
 					<section>
 						<h3>Dynamic components</h3>
