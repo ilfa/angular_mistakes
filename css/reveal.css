@@ -1368,9 +1368,20 @@ body {
   .reveal mark.spy.visible, .reveal span.spy.visible {
     display: inline; }
 
+.reveal span.removed {
+  display: inline; }
+  .reveal span.removed.visible {
+    display: none; }
+
 .reveal section img.mock {
   position: absolute;
   left: 0;
   bottom: 25px;
   border: none;
   max-width: 100%; }
+
+.reveal .slide-background.white-slide {
+  background-color: white; }
+
+.reveal section pre {
+  font-size: 0.8em; }

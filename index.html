@@ -39,6 +39,7 @@
 							<li class="fragment">Knockoutjs -> own framework -> React</li>
 							<li class="fragment">1,5 года в Wrike</li>
 							<li class="fragment">Dart + Angular</li>
+							<li class="fragment">Last year work on UI-kit</li>
 						</ul>
 					</section>
 					<section>
@@ -58,9 +59,8 @@
 						<ul>
 							<li class="fragment">Project with 10 years history</li>
 							<li class="fragment">Legacy code running on Extjs + bicycles</li>
-							<li class="fragment">50+ people develop one project</li>
+							<li class="fragment">50+ FE developers</li>
 							<li class="fragment">New code runs on dart + Angular</li>
-							<li class="fragment">Developers the same</li>
 						</ul>
 					</section>
 				</section>
@@ -113,9 +113,9 @@
 					</section>
 					<section>
 						<pre class="stretch"><code class="typescript" data-trim data-noescape>
-class LowLevelComponent implements OnChanges{<mark class="fragment spy dot">
+class LowLevelComponent implements OnChanges {<mark class="fragment spy dot">
   ngOnChanges(changes: SimpleChanges) {<mark class="fragment spy dot">
-	setTimeout(() => {
+	setTimeout(() => async {
 	  this.state = await buildState(changes);<mark class="fragment spy dot">
 	  cdr.markForCheck();
 	  cdr.detectChanges();</mark>
@@ -173,7 +173,7 @@ class HighLevelComponent {<mark class="fragment spy dot">
 							<li class="fragment">ViewContainerRef.createComponent</li>
 						</ul>
 					</section>
-					<section data-background-image="img/dynamic.png" data-background-position="center" data-background-size="contain">
+					<section class="white-slide" data-background-image="img/dynamic.png" data-background-position="center" data-background-size="contain">
 					</section>
 					<section>
 						<ul>
@@ -192,49 +192,44 @@ class HighLevelComponent {<mark class="fragment spy dot">
 						<h3>Input</h3>
 					</section>
 					<section>
-						<pre class="stretch"><code class="typescript" data-trim data-noescape>
-@Component{
-	selector: 'custom-input'
+						<pre class="stretch"><code class="typescript" data-trim data-noescape><span class="fragment removed fade-out" data-fragment-index="1">@Component{
+  selector: 'custom-input'
 }
-class CustomInput {
-	@Input() value: String;
-	@Input() label: String;
-	@Output() change: EventEmitter&lt;any&gt; = new EventEmitter();<mark class="fragment spy dot" data-fragment-index="1">
+</span>class CustomInput {
+  @Input() value: String;
+  @Input() label: String;
+  @Output() change: EventEmitter&lt;any&gt;;<mark class="fragment spy dot" data-fragment-index="1">
 
-	@Input() size: String; // s, m, l, xl</mark><mark class="fragment spy dot" data-fragment-index="2">
-	@Input() type: String; // default, light, invisible</mark><mark class="fragment spy dot" data-fragment-index="3">
-	@Input() fieldType: String; // text, email, number, password</mark><mark class="fragment spy dot">
-	@Input() isReadonly: Bool;</mark><mark class="fragment spy dot">
-	@Input() isAutocomplete: Bool;</mark><mark class="fragment spy dot">
+  @Input() size: String; // s, m, l, xl</mark><mark class="fragment spy dot">
+  @Input() type: String; // light, invisible</mark><mark class="fragment spy dot">
+  @Input() fieldType: String; // email, password</mark><mark class="fragment spy dot">
+  @Input() isReadonly: bool;</mark><mark class="fragment spy dot">
+  @Input() isAutocomplete: bool;</mark><mark class="fragment spy dot">
 
-	@Output() focus: EventEmitter&lt;any&gt; = new EventEmitter();</mark><mark class="fragment spy dot">
-	@Output() blur: EventEmitter&lt;any&gt; = new EventEmitter();</mark><mark class="fragment spy dot">
+  @Output() focus: EventEmitter&lt;any&gt;;</mark><mark class="fragment spy dot">
+  @Output() blur: EventEmitter&lt;any&gt;;</mark><mark class="fragment spy dot">
 
-	focus(): void {}</mark><mark class="fragment spy dot">
-	...</mark>
+  focus(): void {}</mark><mark class="fragment spy dot">
+  ...</mark>
 }
 						</code></pre>
 						<span class="fragment fade-in" data-fragment-index="0">
-						<img class="mock fragment fade-out" src="img/input.png" data-fragment-index="3"/>
+						<img class="mock fragment fade-out" src="img/input.png" data-fragment-index="1"/>
 						</span>
-						<!--<span class="fragment fade-in"><span class="fragment fade-out">@Input() size: String; // s, m, l, xl</span></span>-->
 					</section>
 					<section>
 						<pre class="stretch"><code class="typescript" data-trim data-noescape>
 // custom input template
-
 &lt;input class="input-text"<mark class="fragment dot spy">
-	ref-input</mark><mark class="fragment dot spy">
-
-	[type]="type"
-	[disabled]="isDisabled"
-	[placeholder]="placeholderText"
-	[readonly]="isReadonly"
-	[autocomplete]="autocomplete"</mark><mark class="fragment dot spy">
-
-	(input)="onChange($event)"
-	(focus)="onFocus($event)"
-	(blur)="onBlur($event)"</mark>/&gt;
+  ref-input</mark><mark class="fragment dot spy">
+  [type]="type"
+  [disabled]="isDisabled"
+  [placeholder]="placeholderText"
+  [readonly]="isReadonly"
+  [autocomplete]="autocomplete"</mark><mark class="fragment dot spy">
+  (input)="onChange($event)"
+  (focus)="onFocus($event)"
+  (blur)="onBlur($event)"</mark>/&gt;
 
 <mark class="fragment dot">&lt;label *ngIf="isLabelNotEmpty"
   <mark>(click)="focus()"</mark>&gt;
@@ -246,18 +241,20 @@ class CustomInput {
 					<section>
 						<pre><code class="typescript" data-trim data-noescape>
 @Component{
-	selector: '[input]custom-input'
+  selector: 'input[custom-input]'
 }
 class CustomInput {<mark class="fragment dot" data-fragment-index="2">
-	@Input() size: String; // s, m, l, xl</mark><mark class="fragment dot" data-fragment-index="3">
-	@Input() skin: String; // default, light, invisible</mark>
+  @Input() size: String; // s, m, l, xl</mark><mark class="fragment dot" data-fragment-index="3">
+  @Input() skin: String; // light, invisible</mark>
 }
-						</code><code class="html" data-trim data-noescape><mark class="fragment dot" data-fragment-index="5">
+                        </code></pre><pre><code class="html" data-trim data-noescape>// Usage in template<mark class="fragment dot" data-fragment-index="5">
 &lt;input-wrapper [label]="labelText"&gt;</mark>
-    <mark class="fragment dot" data-fragment-index="1">&lt;input custom-input
-	[type]="'password'"<mark class="fragment spy dot" data-fragment-index="4">
-	[size]="'m'" [skin]="'light'"</mark>/&gt;</mark><mark class="fragment dot" data-fragment-index="5">
-&lt;input-wrapper/&gt;</mark>
+  <mark class="fragment dot" data-fragment-index="1">&lt;input custom-input
+  [type]="'password'"<mark class="fragment spy dot" data-fragment-index="4">
+  [size]="'m'" [skin]="'light'"</mark>/&gt;</mark><mark class="fragment dot" data-fragment-index="5">
+&lt;input-wrapper/&gt;</mark><span class="fragment removed fade-out" data-fragment-index="4">
+
+</span>
 						</code></pre>
 					</section>
 					<section>
@@ -266,46 +263,50 @@ class CustomInput {<mark class="fragment dot" data-fragment-index="2">
 					<section>
 						<pre><code class="html">
 &lt;tooltip
-	[trigger]="'click'"
-	[position]="'right'"
-	[target]="buttonRef"&gt;
-	Tooltip content
+  [trigger]="'click'"
+  [position]="'right'"
+  [target]="buttonRef"&gt;
+  Tooltip content
 &lt;/tooltip&gt;
 						</code></pre>
 						<pre><code class="typescript">
 class Tooltip {
-	@Input() trigger: String;
-	@Input() position: String;
-	@Input() target: Element;
+  @Input() trigger: String;
+  @Input() position: String;
+  @Input() target: Element;
+}
+						</code></pre>
+					</section>
+					<section>
+						<pre class="stretch"><code class="typescript" data-trim data-noescape>
+class Tooltip {
+  @Input() trigger: String;
+  @Input() position: String;
+  @Input() target: Element;<mark class="fragment spy dot">
+
+  open(): void {}</mark><mark class="fragment spy dot">
+  close(): void {}</mark><mark class="fragment spy dot">
+
+  @Output() onOpen: EventEmitter&lt;any&gt;;</mark><mark class="fragment spy dot">
+  @Output() onClose: EventEmitter&lt;any&gt;;</mark>
 }
 						</code></pre>
 					</section>
 					<section>
 						<pre><code class="typescript" data-trim data-noescape>
 class Tooltip {
-	@Input() trigger: String;
-	@Input() position: String;
-	@Input() target: Element;<mark class="fragment spy dot">
-	open(): void {}</mark><mark class="fragment spy dot">
-	close(): void {}</mark><mark class="fragment spy dot">
-	@Output() onOpen: EventEmitter&lt;any&gt; = new EventEmitter();</mark><mark class="fragment spy dot">
-	@Output() onClose: EventEmitter&lt;any&gt; = new EventEmitter();</mark>
-}
-						</code></pre>
-					</section>
-					<section>
-						<pre><code class="typescript" data-trim data-noescape>
-class Tooltip {
-	@Input() position: String;
+  @Input() position: String;
+  @Input() target: Element;
 }
 						</code></pre>
 						<pre class="fragment"><code class="html" data-trim data-noescape>
 &lt;tooltip<mark class="fragment spy"> *ngIf="isOpened"</mark>&gt;
-	Tooltip content
+  Tooltip content
 &lt;/tooltip&gt;
 						</code></pre>
 					</section>
 					<section>
+                        <h3>Be careful</h3>
 						<ul>
 							<li class="fragment">Don't wrap native elements</li>
 							<li class="fragment">Write stateless components</li>

@@ -1490,6 +1490,15 @@ body {
   }
 }
 
+.reveal span {
+	&.removed {
+		display: inline;
+		&.visible {
+			display: none;
+		}
+	}
+}
+
 .reveal pre code {
   //font-size: 40px;
   //line-height: 45px
@@ -1505,4 +1514,12 @@ body {
   bottom: 25px;
   border: none;
   max-width: 100%;
+}
+
+.reveal .slide-background.white-slide {
+	background-color: white;
+}
+
+.reveal section pre {
+	font-size: 0.8em;
 }
