@@ -32,7 +32,7 @@
 				</section>
 				<section>
 					<section>
-						<h3>Speaker</h3>
+						<h2>Speaker</h2>
 						<ul>
 							<li class="fragment">7 years in frontend</li>
 							<li class="fragment">5,5 years in 2GIS</li>
@@ -43,19 +43,16 @@
 						</ul>
 					</section>
 					<section>
-						<h3>О чем будем говорить?</h3>
+						<h2>What the plan?</h2>
 						<ul>
-							<li>О проекте и проблемах</li>
-							<li>Проблемы ангуляра</li>
-							<li>Проблемы проектирования</li>
-							<li>Вредные советы от Google</li>
-							<li>Что же делать?</li>
+							<li class="fragment">Project and it problems.</li>
+							<li class="fragment">What's wrong in Angular?</li>
+							<li class="fragment">What's wrong with developers?</li>
+							<li class="fragment">Cheats</li>
 						</ul>
 					</section>
 					<section>
-						<h3>What is Wrike for FE developers?</h3>
-					</section>
-					<section>
+						<h2>What is Wrike for FE developers?</h2>
 						<ul>
 							<li class="fragment">Project with 10 years history</li>
 							<li class="fragment">Legacy code running on Extjs + bicycles</li>
@@ -66,13 +63,15 @@
 				</section>
 				<section>
 					<section>
-						<h3>Angular, any problems?</h3>
+						<h1>Angular, any problems?</h1>
 					</section>
 					<section>
 						<h2>Change detection</h2>
-					</section>
-					<section>
-						<h2>Default change detection</h2>
+                        <ul>
+                            <li class="fragment">Your application is big</li>
+                            <li class="fragment">You have data calculation on render</li>
+                            <li class="fragment">You listen sockets <mark class="fragment">in Angular Zone</mark></li>
+                        </ul>
 					</section>
 					<section data-background-image="img/CD0.svg" data-background-transition="none"></section>
 					<section data-background-image="img/CD1.svg" data-background-transition="none"></section>
@@ -80,14 +79,14 @@
 					<section data-background-image="img/CD3.svg" data-background-transition="none"></section>
 					<section data-background-image="img/CD4.svg" data-background-transition="none"></section>
 					<section>
-						<h2>Default change detection</h2>
+						<h3>Default change detection</h3>
 						<ul>
 							<li class="fragment">Each zone update</li>
 							<li class="fragment">Checks all tree from root</li>
 						</ul>
 					</section>
 					<section>
-						<h2>OnPush change detection</h2>
+						<h3>OnPush change detection</h3>
 					</section>
 					<section data-background-image="img/CD0.svg" data-background-transition="none"></section>
 					<section data-background-image="img/CD1.svg" data-background-transition="none"></section>
@@ -95,15 +94,22 @@
 					<section data-background-image="img/CD10.svg" data-background-transition="none"></section>
 					<section data-background-image="img/CD11.svg" data-background-transition="none"></section>
 					<section>
-						<h2>OnPush change detection</h2>
+						<h3>OnPush change detection</h3>
 						<ul>
 							<li class="fragment">Each zone update</li>
 							<li class="fragment">Don't go down if node clear</li>
 							<li class="fragment">But event marks subtree up to root</li>
 						</ul>
 					</section>
+                    <section>
+                        <h3>How fix sockets problem?</h3>
+                        <ul>
+                            <li class="fragment">Use OnPush strategy</li>
+                            <li class="fragment">Subscribe on data update out of zone</li>
+                        </ul>
+                    </section>
 					<section>
-						<h2>Can I control CD manually?</h2>
+						<h3>How control CD manually?</h3>
 						<ul>
 							<li class="fragment">markForCheck - for mark subtree up to root</li>
 							<li class="fragment">detectChanges - for trigger CD</li>
@@ -111,6 +117,10 @@
 							<li class="fragment">reattach - cancel detach</li>
 						</ul>
 					</section>
+                    <section>
+                        <h3>Any problems with CD?</h3>
+                        <h3 class="fragment">Yes<span class="fragment">, CD loop</span></h3>
+                    </section>
 					<section>
 						<pre class="stretch"><code class="typescript" data-trim data-noescape>
 class LowLevelComponent implements OnChanges {<mark class="fragment spy dot">
@@ -131,41 +141,62 @@ class HighLevelComponent {<mark class="fragment spy dot">
 						</code></pre>
 					</section>
 					<section>
-						<h3>Dependency injection<span class="fragment"> good parts</span></h3>
-						<ul>
-							<li class="fragment">Get access to angular magic (element, zone, change detector)</li>
-							<li class="fragment">Easy to build event bus through app</li>
-							<li class="fragment">A lot of OOP magic from the box</li>
-							<li class="fragment">Great instrument for unit testing</li>
-						</ul>
-					</section>
+						<h2>Dynamic components</h2>
+                        <pre class="fragment"><code class="html" data-trim data-noescape>
+&lt;task-list
+  [tasks]="tasksModel"
+  [taskTemplate]="TaskComponent"&gt;
+&lt;/task-list&gt;
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h3>ContentChildren</h3>
+                        <pre class="fragment"><code class="html" data-trim data-noescape>
+&lt;task-list [tasks]="tasksModel"&gt;
+  <span class="fragment">&lt;task
+    <mark>*ngFor="let item of tasksModel.items"</mark>
+    [model]="item"&gt;
+  &lt;/task&gt;</span>
+&lt;/task-list&gt;
+                        </code></pre>
+                    </section>
+                    <section>
+                        <pre class="stretch"><code class="typescript" data-trim data-noescape>
+@Component({
+  selector: 'task-list'
+})
+class TaskList implements AfterContentInit {
+  @Input() tasks: TasksModel;
+  <mark>@ContentChildren(Task) tasks: QueryList&lt;Task&gt;;</mark>
+
+  ngAfterContentInit() {
+    // contentChildren is set
+  }
+}
+                        </code></pre>
+                    </section>
 					<section>
-						<h3>Dependency injection bad parts</h3>
-						<ul>
-							<li class="fragment">Unobvious dependencies</li>
-							<li class="fragment">With great power there must also come great responsibility</li>
-							<li class="fragment">Works declarative</li>
-						</ul>
-					</section>
-					<section>
-						<pre><code class="html" data-trim data-noescape>
-&lt;menu&gt;
-	&lt;menu-item&gt;Item 1&lt;/menu-item&gt;
-	&lt;menu-item&gt;Item 2&lt;/menu-item&gt;
-&lt;/menu&gt;
-						</code></pre>
-					</section>
-					<section>
-						<h3>Dynamic components</h3>
-					</section>
-					<section>
-						<h3>ContentChildren</h3>
+                        <h3>ContentChildren</h3>
 						<ul>
 							<li class="fragment">Not same as &lt;ng-content&gt;</li>
 							<li class="fragment">DI works from component description point</li>
 						</ul>
 					</section>
 					<section>
+						<h3>Template</h3>
+                        <pre class="fragment"><code class="html" data-trim data-noescape>
+&lt;task-list
+  [tasks]="tasksModel"
+  [taskTemplate]="taskTemplate"&gt;
+&lt;/task-list&gt;<span class="fragment">
+
+&lt;template ref-taskTemplate
+  let-item&gt;
+  &lt;task [model]="item"&gt;
+&lt;/template&gt;
+                        </span></code></pre>
+					</section>
+                    <section>
 						<h3>Template</h3>
 						<ul>
 							<li class="fragment">NgTemplateOutlet</li>
@@ -176,25 +207,26 @@ class HighLevelComponent {<mark class="fragment spy dot">
 					<section class="white-slide" data-background-image="img/dynamic.png" data-background-position="center" data-background-size="contain">
 					</section>
 					<section>
+                        <h3>How to solve angular problems?</h3>
 						<ul>
 							<li class="fragment">Use OnPush</li>
-							<li class="fragment">Don't use DI for horizontal connections</li>
+							<li class="fragment">Subscribe on events out of zone</li>
 							<li class="fragment">Avoid dynamic components</li>
 						</ul>
 					</section>
 				</section>
 				<section>
 					<section>
-						<h3>Newbie Angular developer</h3>
+						<h1>Newbie Angular developer</h1>
 						<h3 class="fragment">What can goes wrong?</h3>
 					</section>
 					<section>
 						<h3>Input</h3>
 					</section>
 					<section>
-						<pre class="stretch"><code class="typescript" data-trim data-noescape><span class="fragment removed fade-out" data-fragment-index="1">@Component{
+						<pre class="stretch"><code class="typescript" data-trim data-noescape><span class="fragment removed fade-out" data-fragment-index="1">@Component({
   selector: 'custom-input'
-}
+})
 </span>class CustomInput {
   @Input() value: String;
   @Input() label: String;
@@ -240,9 +272,9 @@ class HighLevelComponent {<mark class="fragment spy dot">
 					</section>
 					<section>
 						<pre><code class="typescript" data-trim data-noescape>
-@Component{
+@Component({
   selector: 'input[custom-input]'
-}
+})
 class CustomInput {<mark class="fragment dot" data-fragment-index="2">
   @Input() size: String; // s, m, l, xl</mark><mark class="fragment dot" data-fragment-index="3">
   @Input() skin: String; // light, invisible</mark>
