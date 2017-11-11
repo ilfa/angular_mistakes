@@ -300,7 +300,9 @@ class Tooltip {
 }
 						</code></pre>
 						<pre class="fragment"><code class="html" data-trim data-noescape>
-&lt;tooltip<mark class="fragment spy"> *ngIf="isOpened"</mark>&gt;
+&lt;tooltip<mark class="fragment spy"> *ngIf="isOpened"</mark>
+  [target]="target"
+  [position]="'top'"&gt;
   Tooltip content
 &lt;/tooltip&gt;
 						</code></pre>
