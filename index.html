@@ -44,9 +44,9 @@
 					</section>
                     <section class="white-slide" data-background-image="img/kit.png" data-background-size="contain"></section>
 					<section>
-						<h2>What the plan?</h2>
+						<h2>What is the plan?</h2>
 						<ul>
-							<li class="fragment">Project and it problems.</li>
+							<li class="fragment">Project and its problems</li>
 							<li class="fragment">What's wrong in Angular?</li>
 							<li class="fragment">What's wrong with developers?</li>
 							<li class="fragment">Cheats</li>
@@ -56,9 +56,9 @@
 						<h2>What is Wrike for FE developers?</h2>
 						<ul>
 							<li class="fragment">Project with 10 years history</li>
-							<li class="fragment">Legacy code running on Extjs + bicycles</li>
+							<li class="fragment">Legacy code running on ExtJs + bicycles</li>
 							<li class="fragment">50+ FE developers</li>
-							<li class="fragment">New code runs on dart + Angular</li>
+							<li class="fragment">New code runs on Dart + Angular</li>
 						</ul>
 					</section>
                     <section class="white-slide" data-background-image="img/hydra.jpg" data-background-size="contain"></section>
@@ -67,6 +67,9 @@
 					<section>
 						<h1>Angular, any problems?</h1>
 					</section>
+                    <section data-background-image="img/render.svg" class="stretch">
+                        <h3>How Angular render work?</h3>
+                    </section>
 					<section>
 						<h2>Change detection</h2>
                         <ul>
@@ -127,12 +130,10 @@
                     <section>
 						<pre class="stretch"><code class="typescript" data-trim data-noescape>
 class LowLevelComponent implements OnChanges {<mark class="fragment spy dot">
-  ngOnChanges(changes: SimpleChanges) {<mark class="fragment spy dot">
-	setTimeout(async () => {
-	  this.state = await buildState(changes);<mark class="fragment spy dot">
-	  cdr.markForCheck();
-	  cdr.detectChanges();</mark>
-	}, 0);</mark>
+  ngOnChanges(changes: SimpleChanges) {
+    this.state = await buildState(changes);<mark class="fragment spy dot">
+    cdr.markForCheck();
+    cdr.detectChanges();</mark>
   }</mark>
 }<mark class="fragment spy dot">
 
@@ -220,8 +221,8 @@ class TaskList implements AfterContentInit {
 				</section>
 				<section>
 					<section>
-						<h1>Newbie Angular developer</h1>
-						<h2 class="fragment">What can goes wrong?</h2>
+						<h1>Angular newcomers</h1>
+						<h2 class="fragment">What can go wrong?</h2>
 					</section>
                     <section class="white-slide" data-background-image="img/trex-curling.jpg" data-background-size="contain"></section>
                     <section>
