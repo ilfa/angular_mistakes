@@ -25,7 +25,7 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h4>Как переписать крупный проект на Angular и (не) впасть в депрессию</h4>
+					<h3>Как переписать крупный проект на Angular и (не) впасть в депрессию</h3>
 					<p>
 						<small>Илья Таратухин / <a href="http://twitter.com/darkilfa">@darkilfa</a></small>
 					</p>
@@ -227,7 +227,8 @@ class TaskList implements AfterContentInit {
                     <section class="white-slide" data-background-image="img/trex-curling.jpg" data-background-size="contain"></section>
                     <section>
 						<h2>Input</h2>
-					</section>
+                        <img class="img fragment" src="img/inputBase.png"/>
+                    </section>
 					<section>
 						<pre class="stretch"><code class="typescript" data-trim data-noescape><span class="fragment removed fade-out" data-fragment-index="1">@Component({
   selector: 'custom-input'
@@ -275,6 +276,7 @@ class TaskList implements AfterContentInit {
 						</code></pre>
 						<span class="fragment"></span>
 					</section>
+                    <section class="white-slide" data-background-image="img/material-input.png"></section>
 					<section>
 						<pre><code class="typescript" data-trim data-noescape>
 @Component({
@@ -296,7 +298,8 @@ class CustomInput {<mark class="fragment dot" data-fragment-index="2">
 					</section>
 					<section>
 						<h2>Tooltip</h2>
-					</section>
+                        <img class="img fragment" src="img/tooltip.png"/>
+                    </section>
 					<section>
 						<pre><code class="html">
 &lt;tooltip
@@ -314,7 +317,8 @@ class Tooltip {
 }
 						</code></pre>
 					</section>
-					<section>
+                    <section class="white-slide" data-background-image="img/hard-tooltip.png" data-background-size="contain"></section>
+                    <section>
 						<pre class="stretch"><code class="typescript" data-trim data-noescape>
 class Tooltip {
   @Input() trigger: String;

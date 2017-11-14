@@ -1380,8 +1380,22 @@ body {
   border: none;
   max-width: 100%; }
 
+.reveal section img.img {
+  border: none; }
+
 .reveal .slide-background.white-slide {
   background-color: white; }
 
 .reveal section pre {
   font-size: 0.8em; }
+
+.reveal img.small-logo {
+  width: 50px;
+  vertical-align: bottom; }
+
+.reveal p.special {
+  line-height: 70px;
+  text-align: left; }
+
+.reveal h2.special {
+  text-align: left; }
