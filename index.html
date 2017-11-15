@@ -37,7 +37,7 @@
 							<li class="fragment">7 years in frontend</li>
 							<li class="fragment">5,5 years in 2GIS</li>
                             <li class="fragment">Knockoutjs<span class="fragment"> -> own framework</span><span class="fragment"> -> React</span></li>
-							<li class="fragment">1,5 года в Wrike</li>
+							<li class="fragment">1,5 years in Wrike</li>
 							<li class="fragment">Dart + Angular</li>
 							<li class="fragment">Last year work on UI-kit</li>
 						</ul>
@@ -70,79 +70,69 @@
                     <section data-background-image="img/render.svg" class="stretch">
                         <h3>How Angular render work?</h3>
                     </section>
-					<section>
-						<h2>Change detection</h2>
+                    <section data-background-image="img/zone.svg" data-background-transition="none"></section>
+                    <section data-background-image="img/zone1.svg" data-background-transition="none" class="stretch">
+                        <h3 class="fragment">NgZone.onUnstable</h3>
+                    </section>
+                    <section data-background-image="img/zone2.svg" data-background-transition="none"></section>
+                    <section data-background-image="img/zone3.svg" data-background-transition="none"></section>
+                    <section data-background-image="img/zone.svg" data-background-transition="none">
+                        <h3 class="fragment">NgZone.onStable</h3>
+                    </section>
+                    <section data-background-image="img/CD0.svg" data-background-transition="none"></section>
+					<section data-background-image="img/CD2.svg" data-background-transition="none"></section>
+					<section data-background-image="img/CD3.svg" data-background-transition="none"></section>
+					<section data-background-image="img/CD4.svg" data-background-transition="none"></section>
+                    <section>
+                        <h3>What does CD do?</h3>
+                        <ul>
+                            <li class="fragment">Every time on NgZone.onStable</li>
+                            <li class="fragment">For each component</li>
+                            <li class="fragment">For each binding</li>
+                            <li class="fragment">Checks prevVal != nextVal</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>When can CD brake your app?</h3>
                         <ul>
                             <li class="fragment">Your application is big</li>
                             <li class="fragment">You have data calculation on render</li>
                             <li class="fragment">You listen sockets <mark class="fragment">in Angular Zone</mark></li>
                         </ul>
-					</section>
-					<section data-background-image="img/CD0.svg" data-background-transition="none"></section>
-					<section data-background-image="img/CD1.svg" data-background-transition="none"></section>
-					<section data-background-image="img/CD2.svg" data-background-transition="none"></section>
-					<section data-background-image="img/CD3.svg" data-background-transition="none"></section>
-					<section data-background-image="img/CD4.svg" data-background-transition="none"></section>
-					<section>
+                    </section>
+                    <section>
+                        <h3>How to fix it?</h3>
+                        <ul>
+                            <li class="fragment">Subscribe on events out of zone</li>
+                            <li class="fragment">Use OnPush CD strategy</li>
+                        </ul>
+                    </section>
+                    <section>
 						<h3>Default change detection</h3>
 						<ul>
 							<li class="fragment">Each zone update</li>
 							<li class="fragment">Checks all tree from root</li>
+							<li class="fragment">Checks all bindings</li>
 						</ul>
-					</section>
-					<section>
-						<h3>OnPush change detection</h3>
-					</section>
-					<section data-background-image="img/CD0.svg" data-background-transition="none"></section>
-					<section data-background-image="img/CD1.svg" data-background-transition="none"></section>
-					<section data-background-image="img/CD2.svg" data-background-transition="none"></section>
-					<section data-background-image="img/CD10.svg" data-background-transition="none"></section>
-					<section data-background-image="img/CD11.svg" data-background-transition="none"></section>
-					<section>
-						<h3>OnPush change detection</h3>
-						<ul>
-							<li class="fragment">Each zone update</li>
-							<li class="fragment">Don't go down if node clear</li>
-							<li class="fragment">But event marks subtree up to root</li>
-						</ul>
-					</section>
+                    </section>
                     <section>
-                        <h3>How fix sockets problem?</h3>
+                        <h3>OnPush change detection</h3>
                         <ul>
-                            <li class="fragment">Use OnPush strategy</li>
-                            <li class="fragment">Subscribe on data update out of zone</li>
+                            <li class="fragment">Each zone update</li>
+                            <li class="fragment">Runs CD if @Input change</li>
+                            <li class="fragment">Runs CD if event was in component`s zone</li>
+                            <li class="fragment">Doesn't check subtree if component has no changes</li>
+                            <li class="fragment">You need immutable state tree</li>
                         </ul>
                     </section>
 					<section>
-						<h3>How control CD manually?</h3>
+						<h3>How to control CD manually?</h3>
 						<ul>
 							<li class="fragment">markForCheck - for mark subtree up to root</li>
 							<li class="fragment">detectChanges - for trigger CD</li>
 							<li class="fragment">detach - for skip CD cycles</li>
-							<li class="fragment">reattach - cancel detach</li>
+							<li class="fragment">reattach - cancels detach</li>
 						</ul>
-					</section>
-                    <section>
-                        <h3>Any problems with CD?</h3>
-                        <h3 class="fragment">Yes<span class="fragment">, CD loop</span></h3>
-                    </section>
-                    <section class="white-slide" data-background-image="img/Ouroboros.png" data-background-size="contain"></section>
-                    <section>
-						<pre class="stretch"><code class="typescript" data-trim data-noescape>
-class LowLevelComponent implements OnChanges {<mark class="fragment spy dot">
-  ngOnChanges(changes: SimpleChanges) {
-    this.state = await buildState(changes);<mark class="fragment spy dot">
-    cdr.markForCheck();
-    cdr.detectChanges();</mark>
-  }</mark>
-}<mark class="fragment spy dot">
-
-class HighLevelComponent {<mark class="fragment spy dot">
-  get state(): ComponentState {<mark class="fragment spy dot">
-    return new ComponentState();
-  </mark>}</mark>
-}</mark>
-						</code></pre>
 					</section>
 					<section>
 						<h2>Dynamic components</h2>
@@ -153,6 +143,7 @@ class HighLevelComponent {<mark class="fragment spy dot">
 &lt;/task-list&gt;
                         </code></pre>
                     </section>
+                    <section data-background-image="img/taskList.png" data-background-position="top"></section>
                     <section>
                         <h3>ContentChildren</h3>
                         <pre class="fragment"><code class="html" data-trim data-noescape>
@@ -211,12 +202,7 @@ class TaskList implements AfterContentInit {
 					<section class="white-slide" data-background-image="img/dynamic.png" data-background-position="center" data-background-size="contain">
 					</section>
 					<section>
-                        <h3>How to solve angular problems?</h3>
-						<ul>
-							<li class="fragment">Use OnPush</li>
-							<li class="fragment">Subscribe on events out of zone</li>
-							<li class="fragment">Avoid dynamic components</li>
-						</ul>
+                        <h3>Avoid dynamic components</h3>
 					</section>
 				</section>
 				<section>
