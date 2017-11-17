@@ -213,9 +213,7 @@ class Tooltip {
                         <h3>How Angular render work?</h3>
                     </section>
                     <section data-background-image="img/zone.svg" data-background-transition="none"></section>
-                    <section data-background-image="img/zone1.svg" data-background-transition="none" class="stretch">
-                        <h3 class="fragment">NgZone.onUnstable</h3>
-                    </section>
+                    <section data-background-image="img/zone1.svg" data-background-transition="none"></section>
                     <section data-background-image="img/zone2.svg" data-background-transition="none"></section>
                     <section data-background-image="img/zone3.svg" data-background-transition="none"></section>
                     <section data-background-image="img/zone.svg" data-background-transition="none">
@@ -287,7 +285,7 @@ class Tooltip {
                     </section>
                     <section data-background-image="img/taskList.png" data-background-position="top"></section>
                     <section>
-                        <h3>ContentChildren</h3>
+                        <h3>@ContentChildren</h3>
                         <pre class="fragment"><code class="html" data-trim data-noescape>
 &lt;task-list [tasks]="tasksModel"&gt;
   <span class="fragment">&lt;task
@@ -300,7 +298,8 @@ class Tooltip {
                     <section>
                         <pre class="stretch"><code class="typescript" data-trim data-noescape>
 @Component({
-  selector: 'task-list'
+  selector: 'task-list',
+  template: '&lt;ng-content&gt;&lt;/ng-content&gt;'
 })
 class TaskList implements AfterContentInit {
   @Input() tasks: TasksModel;
@@ -313,14 +312,14 @@ class TaskList implements AfterContentInit {
                         </code></pre>
                     </section>
 					<section>
-                        <h3>ContentChildren</h3>
+                        <h3>@ContentChildren</h3>
 						<ul>
-							<li class="fragment">Not same as &lt;ng-content&gt;</li>
-							<li class="fragment">DI works from component description point</li>
+							<li class="fragment">Doesn't help with complicated structures</li>
+							<li class="fragment">Looks like crunch</li>
 						</ul>
 					</section>
 					<section>
-						<h3>Template</h3>
+						<h3>NgTemplateOutlet</h3>
                         <pre class="fragment"><code class="html" data-trim data-noescape>
 &lt;task-list
   [tasks]="tasksModel"
@@ -335,6 +334,8 @@ class TaskList implements AfterContentInit {
                     </section>
                     <section>
                         <pre><code class="html" data-trim data-noescape>
+// Task list template
+
 &lt;ng-container
   *ngTemplateOutlet=
   &quot;taskTemplate; context: taskItem&quot;&gt;
@@ -374,11 +375,11 @@ class TaskList implements AfterContentInit {
                     <section>
                         <h2>Result</h2>
                         <ul>
+                            <li class="fragment">Don't wrap native elements</li>
+                            <li class="fragment">Stateless components</li>
                             <li class="fragment">OnPush</li>
                             <li class="fragment">Subscriptions out of zone</li>
-                            <li class="fragment">Stateless components</li>
                             <li class="fragment">Avoid dynamic components</li>
-                            <li class="fragment">Don't wrap native elements</li>
                             <li class="fragment">Use sandbox</li>
                             <li class="fragment">Don't write bicycles</li>
                         </ul>
