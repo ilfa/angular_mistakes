@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg x="0px" height="1080.000000px" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px" xmlns="http://www.w3.org/2000/svg" width="1920.000000px" version="1.1" viewBox="0 0 1920.000000 1080.000000">
+    <defs>
+        <linearGradient x2="1034.725830" id="7452F44C-56A8-4F8C-9530-6C1152CED1B1" x1="1034.725830" gradientUnits="userSpaceOnUse" y2="58.492825" y1="154.825531">
+            <stop offset="0.00%" stop-color="#8C5C54" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#D6B0A9" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="434.725891" id="D12160CA-5385-4A67-9476-31C7922C3ABF" x1="434.725891" gradientUnits="userSpaceOnUse" y2="254.883194" y1="351.215912">
+            <stop offset="0.00%" stop-color="#637E4E" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CEDCC2" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="1434.725830" id="BD73926D-E14F-4744-882D-DFD2DAD17D8B" x1="1434.725830" gradientUnits="userSpaceOnUse" y2="254.883194" y1="351.215912">
+            <stop offset="0.00%" stop-color="#8C5C54" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#D6B0A9" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="714.725891" id="B27B31A9-02AA-4232-A2FD-5D7420D14F2F" x1="714.725891" gradientUnits="userSpaceOnUse" y2="254.883194" y1="351.215912">
+            <stop offset="0.00%" stop-color="#637E4E" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CEDCC2" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="274.725891" id="2B06F71A-E208-4D24-B55F-584D9580C894" x1="274.725891" gradientUnits="userSpaceOnUse" y2="458.492828" y1="554.825500">
+            <stop offset="0.00%" stop-color="#5E94B8" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CCE8FB" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="554.725891" id="86A7D9B7-AE38-4D6E-B3B2-B43AB7BF5328" x1="554.725891" gradientUnits="userSpaceOnUse" y2="458.492828" y1="554.825500">
+            <stop offset="0.00%" stop-color="#5E94B8" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CCE8FB" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="834.725891" id="DEA35219-7737-44B0-B342-6E2AE810542B" x1="834.725891" gradientUnits="userSpaceOnUse" y2="458.492828" y1="554.825500">
+            <stop offset="0.00%" stop-color="#5E94B8" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CCE8FB" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="1234.725830" id="6870EBD2-0CD3-4EDA-896C-CF1D779535B6" x1="1234.725830" gradientUnits="userSpaceOnUse" y2="458.492828" y1="554.825500">
+            <stop offset="0.00%" stop-color="#8C5C54" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#D6B0A9" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="1634.725830" id="E02EE017-176E-45AA-A508-BAA4A29378EB" x1="1634.725830" gradientUnits="userSpaceOnUse" y2="458.492828" y1="554.825500">
+            <stop offset="0.00%" stop-color="#637E4E" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CEDCC2" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="1714.725830" id="0C1A9243-45AC-4820-BEA5-3EF4A6259666" x1="1714.725830" gradientUnits="userSpaceOnUse" y2="698.492798" y1="794.825500">
+            <stop offset="0.00%" stop-color="#5E94B8" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CCE8FB" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="1474.725830" id="0B2379D8-8C5E-4EFA-884E-C8A49AF75AFD" x1="1474.725830" gradientUnits="userSpaceOnUse" y2="698.492798" y1="794.825500">
+            <stop offset="0.00%" stop-color="#5E94B8" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CCE8FB" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="1154.725830" id="AEF608A0-198B-43BA-BB64-2127A7983F14" x1="1154.725830" gradientUnits="userSpaceOnUse" y2="698.492798" y1="794.825500">
+            <stop offset="0.00%" stop-color="#8C5C54" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#D6B0A9" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="434.725891" id="CDF28AAB-2FEF-4517-9589-3E8156D550E3" x1="434.725891" gradientUnits="userSpaceOnUse" y2="698.492798" y1="794.825500">
+            <stop offset="0.00%" stop-color="#5E94B8" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CCE8FB" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="674.725891" id="1571564B-A954-430E-881B-7BDD6F1DCC56" x1="674.725891" gradientUnits="userSpaceOnUse" y2="698.492798" y1="794.825500">
+            <stop offset="0.00%" stop-color="#5E94B8" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CCE8FB" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="756.574890" id="289C900B-95D7-4504-96F5-88A05A654996" x1="780.997681" gradientUnits="userSpaceOnUse" y2="279.762604" y1="264.773834">
+            <stop offset="0.00%" stop-color="#637E4E" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CEDCC2" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="481.433929" id="75A8248F-1551-4C5B-A420-FC0CA1F548E8" x1="508.667633" gradientUnits="userSpaceOnUse" y2="290.157898" y1="281.243835">
+            <stop offset="0.00%" stop-color="#637E4E" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CEDCC2" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="1390.475952" id="FA0F1AEC-6225-4D04-8594-601272AFE9DD" x1="1367.165039" gradientUnits="userSpaceOnUse" y2="283.720947" y1="272.275848">
+            <stop offset="0.00%" stop-color="#8C5C54" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#D6B0A9" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="305.026245" id="8186F26B-F055-4048-9A8A-B90AB729574B" x1="322.731659" gradientUnits="userSpaceOnUse" y2="470.496582" y1="447.965393">
+            <stop offset="0.00%" stop-color="#5F94B8" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CCE8FB" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="585.026245" id="E151135A-70C6-454E-8C0E-97B6680D78A9" x1="602.731628" gradientUnits="userSpaceOnUse" y2="470.496582" y1="447.965393">
+            <stop offset="0.00%" stop-color="#5F94B8" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CCE8FB" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="809.830566" id="1CDBAED9-03A1-4172-99AE-9B1078987B7A" x1="795.281006" gradientUnits="userSpaceOnUse" y2="466.815491" y1="442.128540">
+            <stop offset="0.00%" stop-color="#5F94B8" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CCE8FB" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="1269.221436" id="E273F744-3FEE-4584-9DE8-BA2CFDE312A7" x1="1287.419434" gradientUnits="userSpaceOnUse" y2="473.937531" y1="455.411194">
+            <stop offset="0.00%" stop-color="#8C5C54" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#D6B0A9" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="1600.350708" id="6597418A-FFEB-4767-B20F-561F79B5DE48" x1="1580.270264" gradientUnits="userSpaceOnUse" y2="474.060791" y1="453.617920">
+            <stop offset="0.00%" stop-color="#637E4E" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CEDCC2" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="456.651489" id="E2623068-2FFA-46CA-A339-275D71464F33" x1="469.466583" gradientUnits="userSpaceOnUse" y2="705.204285" y1="679.574036">
+            <stop offset="0.00%" stop-color="#5F94B8" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CCE8FB" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="652.799744" id="26A3670B-7915-49E1-AEFF-208920F43046" x1="639.984619" gradientUnits="userSpaceOnUse" y2="705.204285" y1="679.574097">
+            <stop offset="0.00%" stop-color="#5F94B8" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CCE8FB" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="1170.282104" id="AC4AB008-8F16-4E5F-A2FE-C513A85DDCF4" x1="1178.494263" gradientUnits="userSpaceOnUse" y2="702.386414" y1="677.750000">
+            <stop offset="0.00%" stop-color="#8C5C54" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#D6B0A9" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="1699.223755" id="E72D5539-2491-4BFE-9A4C-F623B7A237B4" x1="1690.162109" gradientUnits="userSpaceOnUse" y2="702.550354" y1="675.365417">
+            <stop offset="0.00%" stop-color="#5F94B8" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CCE8FB" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="1501.924805" id="A5510789-4624-4631-8A39-A9B06DAEB3BB" x1="1517.819946" gradientUnits="userSpaceOnUse" y2="708.257202" y1="684.414368">
+            <stop offset="0.00%" stop-color="#5F94B8" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CCE8FB" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="914.725891" id="1001CFDB-71FD-4872-B5A9-11378F1CF0F2" x1="914.725891" gradientUnits="userSpaceOnUse" y2="898.492798" y1="994.825500">
+            <stop offset="0.00%" stop-color="#637E4E" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CEDCC2" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="1154.725830" id="A8CC4430-DCF3-4C10-BB01-3D2652D6C8A7" x1="1154.725830" gradientUnits="userSpaceOnUse" y2="898.492798" y1="994.825500">
+            <stop offset="0.00%" stop-color="#8C5C54" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#D6B0A9" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="1354.725830" id="2E765837-D8C5-40DF-9EEC-1A0328F3438D" x1="1354.725830" gradientUnits="userSpaceOnUse" y2="898.492798" y1="994.825500">
+            <stop offset="0.00%" stop-color="#637E4E" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CEDCC2" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="952.423218" id="18342396-DB88-4340-AFBB-C4FC0AE95C9B" x1="974.436951" gradientUnits="userSpaceOnUse" y2="917.641296" y1="899.296509">
+            <stop offset="0.00%" stop-color="#637E4E" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CEDCC2" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="1356.242188" id="6AF227FF-2B3A-4118-A03C-45E4AAF89156" x1="1332.656372" gradientUnits="userSpaceOnUse" y2="899.258484" y1="882.984436">
+            <stop offset="0.00%" stop-color="#637E4E" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CEDCC2" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="194.725891" id="5C700CDE-B294-4A13-8AD7-129CC20EBFFE" x1="194.725891" gradientUnits="userSpaceOnUse" y2="698.492798" y1="794.825500">
+            <stop offset="0.00%" stop-color="#5E94B8" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CCE8FB" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="314.725891" id="906C66D9-D644-435D-A5F4-FBDEDE55A8CD" x1="314.725891" gradientUnits="userSpaceOnUse" y2="898.492798" y1="994.825500">
+            <stop offset="0.00%" stop-color="#5E94B8" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CCE8FB" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="514.725891" id="C084C6F1-26A5-4CD7-B3B3-4BA72DBE6F4E" x1="514.725891" gradientUnits="userSpaceOnUse" y2="898.492798" y1="994.825500">
+            <stop offset="0.00%" stop-color="#5E94B8" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CCE8FB" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="210.227524" id="73BA7020-8ABB-417A-8575-8BB5A4C08978" x1="219.289169" gradientUnits="userSpaceOnUse" y2="702.550232" y1="675.365295">
+            <stop offset="0.00%" stop-color="#5F94B8" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CCE8FB" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="339.951996" id="F4DB649C-A3E0-4BD0-95FB-C9F5B01C9E38" x1="354.695099" gradientUnits="userSpaceOnUse" y2="907.012024" y1="882.440186">
+            <stop offset="0.00%" stop-color="#5F94B8" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CCE8FB" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="496.518463" id="00239716-1660-48D4-AB8A-DC1F2B0B5B43" x1="485.876099" gradientUnits="userSpaceOnUse" y2="903.538208" y1="876.932312">
+            <stop offset="0.00%" stop-color="#5F94B8" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#CCE8FB" stop-opacity="1.000000"></stop>
+        </linearGradient>
+        <linearGradient x2="1154.725586" id="5F5BB58F-7A0F-41DC-8632-E27F48B2DF90" x1="1154.725586" gradientUnits="userSpaceOnUse" y2="899.881775" y1="873.912720">
+            <stop offset="0.00%" stop-color="#8C5C54" stop-opacity="1.000000"></stop>
+            <stop offset="100.00%" stop-color="#D6B0A9" stop-opacity="1.000000"></stop>
+        </linearGradient>
+    </defs>
+    <g ID="e12_5B6EA7F4-0FD2-4160-B5DE-47D04BADF185" dclass="DiaElement" element_type="e12">
+        <path ID="contour_2D244D30-4BB4-4E13-8199-D69AC4D8BF28" d=" M 1034.726171 159.900029 C 1006.602935 159.900029 983.725697 137.091186 983.725697 109.056029 C 983.725697 81.021817 1006.602935 58.212029 1034.726171 58.212029 C 1062.847510 58.212029 1085.725697 81.021817 1085.725697 109.056029 C 1085.724748 137.091186 1062.847510 159.900029 1034.726171 159.900029 L 1034.726171 159.900029 Z M 1034.726171 159.900029" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+        <path ID="e12_2A55ADF5-481C-4365-AAD3-894FE0D6F218" d=" M 1068.035023 75.848136 C 1086.430996 94.188348 1086.430996 123.923709 1068.035023 142.263921 C 1049.639053 160.604136 1019.813290 160.604136 1001.417320 142.263921 C 983.021347 123.923709 983.021347 94.188348 1001.417320 75.848136 C 1019.813290 57.507921 1049.639053 57.507921 1068.035023 75.848136" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <path ID="e12_A6E248EF-18EF-4CAA-92E5-86098BD3DEFE" d=" M 1068.035023 75.848136 C 1086.430996 94.188348 1086.430996 123.923709 1068.035023 142.263921 C 1049.639053 160.604136 1019.813290 160.604136 1001.417320 142.263921 C 983.021347 123.923709 983.021347 94.188348 1001.417320 75.848136 C 1019.813290 57.507921 1049.639053 57.507921 1068.035023 75.848136" dclass="DKDrawableShape" fill="url(#7452F44C-56A8-4F8C-9530-6C1152CED1B1)"></path>
+        <path ID="e12_5FC41AAF-4EF2-4DE7-ABAC-04E2CBF545D3" d=" M 1068.035023 75.848136 C 1086.430996 94.188348 1086.430996 123.923709 1068.035023 142.263921 C 1049.639053 160.604136 1019.813290 160.604136 1001.417320 142.263921 C 983.021347 123.923709 983.021347 94.188348 1001.417320 75.848136 C 1019.813290 57.507921 1049.639053 57.507921 1068.035023 75.848136" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <Hotspots>
+            <StickySpot id_sticky_spot="8517E2F7-3DD0-4C42-A132-413D4FD86D6D_32774" relative_location="{0.448512,0.220884}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="8517E2F7-3DD0-4C42-A132-413D4FD86D6D_32773" relative_location="{-0.475093,0.155983}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="8517E2F7-3DD0-4C42-A132-413D4FD86D6D_32772" relative_location="{-0.425685,0.262053}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="8517E2F7-3DD0-4C42-A132-413D4FD86D6D_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="8517E2F7-3DD0-4C42-A132-413D4FD86D6D_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="8517E2F7-3DD0-4C42-A132-413D4FD86D6D_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="8517E2F7-3DD0-4C42-A132-413D4FD86D6D_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+        </Hotspots>
+        <g></g>
+    </g>
+    <g ID="e12_E8BFE2B4-4825-4517-A9E8-6160C1F77029" dclass="DiaElement" element_type="e12">
+        <path ID="contour_A2784169-F8B3-4C1C-B702-0CE21BD898E1" d=" M 434.726171 356.290402 C 406.602935 356.290402 383.725697 333.481560 383.725697 305.446402 C 383.725697 277.412190 406.602935 254.602402 434.726171 254.602402 C 462.847510 254.602402 485.725697 277.412190 485.725697 305.446402 C 485.724748 333.481560 462.847510 356.290402 434.726171 356.290402 L 434.726171 356.290402 Z M 434.726171 356.290402" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+        <path ID="e12_D5B8E698-CF33-4F9F-855E-E9FE343F5FC6" d=" M 468.035023 272.238509 C 486.430996 290.578721 486.430996 320.314083 468.035023 338.654295 C 449.639053 356.994510 419.813290 356.994510 401.417320 338.654295 C 383.021347 320.314083 383.021347 290.578721 401.417320 272.238509 C 419.813290 253.898295 449.639053 253.898295 468.035023 272.238509" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <path ID="e12_68DB41E3-7107-4AA8-970D-1673B2E74664" d=" M 468.035023 272.238509 C 486.430996 290.578721 486.430996 320.314083 468.035023 338.654295 C 449.639053 356.994510 419.813290 356.994510 401.417320 338.654295 C 383.021347 320.314083 383.021347 290.578721 401.417320 272.238509 C 419.813290 253.898295 449.639053 253.898295 468.035023 272.238509" dclass="DKDrawableShape" fill="url(#D12160CA-5385-4A67-9476-31C7922C3ABF)"></path>
+        <path ID="e12_360B451D-C627-42D9-BBAC-3D714331BCDF" d=" M 468.035023 272.238509 C 486.430996 290.578721 486.430996 320.314083 468.035023 338.654295 C 449.639053 356.994510 419.813290 356.994510 401.417320 338.654295 C 383.021347 320.314083 383.021347 290.578721 401.417320 272.238509 C 419.813290 253.898295 449.639053 253.898295 468.035023 272.238509" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <Hotspots>
+            <StickySpot id_sticky_spot="884A1EF8-8335-45CE-BC33-C855D840A5C5_32772" relative_location="{0.475091,-0.155983}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="884A1EF8-8335-45CE-BC33-C855D840A5C5_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="884A1EF8-8335-45CE-BC33-C855D840A5C5_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="884A1EF8-8335-45CE-BC33-C855D840A5C5_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="884A1EF8-8335-45CE-BC33-C855D840A5C5_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="884A1EF8-8335-45CE-BC33-C855D840A5C5_32773" relative_location="{-0.308228,0.393442}" position_kind="2"></StickySpot>
+        </Hotspots>
+        <g></g>
+    </g>
+    <g ID="e12_6908A75E-A037-4766-B555-3963DB530527" dclass="DiaElement" element_type="e12">
+        <path ID="contour_AB56ACA1-8C57-4BD0-8D10-8E6E8125B070" d=" M 1434.726171 356.290402 C 1406.602935 356.290402 1383.725697 333.481560 1383.725697 305.446402 C 1383.725697 277.412190 1406.602935 254.602402 1434.726171 254.602402 C 1462.847510 254.602402 1485.725697 277.412190 1485.725697 305.446402 C 1485.724748 333.481560 1462.847510 356.290402 1434.726171 356.290402 L 1434.726171 356.290402 Z M 1434.726171 356.290402" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+        <path ID="e12_CDD3247A-B3A3-4E09-B094-08EE3CD00E6A" d=" M 1468.035023 272.238509 C 1486.430996 290.578721 1486.430996 320.314083 1468.035023 338.654295 C 1449.639053 356.994510 1419.813290 356.994510 1401.417320 338.654295 C 1383.021347 320.314083 1383.021347 290.578721 1401.417320 272.238509 C 1419.813290 253.898295 1449.639053 253.898295 1468.035023 272.238509" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <path ID="e12_546C281E-30AE-4FB0-8878-A0D2D36A2F94" d=" M 1468.035023 272.238509 C 1486.430996 290.578721 1486.430996 320.314083 1468.035023 338.654295 C 1449.639053 356.994510 1419.813290 356.994510 1401.417320 338.654295 C 1383.021347 320.314083 1383.021347 290.578721 1401.417320 272.238509 C 1419.813290 253.898295 1449.639053 253.898295 1468.035023 272.238509" dclass="DKDrawableShape" fill="url(#BD73926D-E14F-4744-882D-DFD2DAD17D8B)"></path>
+        <path ID="e12_7F650A27-5F55-4E2F-A1CA-00551FED69A1" d=" M 1468.035023 272.238509 C 1486.430996 290.578721 1486.430996 320.314083 1468.035023 338.654295 C 1449.639053 356.994510 1419.813290 356.994510 1401.417320 338.654295 C 1383.021347 320.314083 1383.021347 290.578721 1401.417320 272.238509 C 1419.813290 253.898295 1449.639053 253.898295 1468.035023 272.238509" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <Hotspots>
+            <StickySpot id_sticky_spot="D3F74BE1-6F83-4CAF-B33D-34CE17806DB7_32772" relative_location="{-0.448515,-0.220885}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="D3F74BE1-6F83-4CAF-B33D-34CE17806DB7_32774" relative_location="{0.349666,0.357069}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="D3F74BE1-6F83-4CAF-B33D-34CE17806DB7_32773" relative_location="{-0.349669,0.357072}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="D3F74BE1-6F83-4CAF-B33D-34CE17806DB7_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="D3F74BE1-6F83-4CAF-B33D-34CE17806DB7_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="D3F74BE1-6F83-4CAF-B33D-34CE17806DB7_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="D3F74BE1-6F83-4CAF-B33D-34CE17806DB7_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+        </Hotspots>
+        <g></g>
+    </g>
+    <g ID="e12_EABC38AB-4578-463E-B4B5-C3D9C5F0E108" dclass="DiaElement" element_type="e12">
+        <path ID="contour_2C386FC4-2159-4434-B333-DC41017F179F" d=" M 714.726171 356.290402 C 686.602935 356.290402 663.725697 333.481560 663.725697 305.446402 C 663.725697 277.412190 686.602935 254.602402 714.726171 254.602402 C 742.847510 254.602402 765.725697 277.412190 765.725697 305.446402 C 765.724748 333.481560 742.847510 356.290402 714.726171 356.290402 L 714.726171 356.290402 Z M 714.726171 356.290402" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+        <path ID="e12_86CEA66D-2A79-4C9E-BF69-16AB5DD54870" d=" M 748.035023 272.238509 C 766.430996 290.578721 766.430996 320.314083 748.035023 338.654295 C 729.639053 356.994510 699.813290 356.994510 681.417320 338.654295 C 663.021347 320.314083 663.021347 290.578721 681.417320 272.238509 C 699.813290 253.898295 729.639053 253.898295 748.035023 272.238509" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <path ID="e12_D4C253A1-F335-4F32-B6C1-EFB70A0B809B" d=" M 748.035023 272.238509 C 766.430996 290.578721 766.430996 320.314083 748.035023 338.654295 C 729.639053 356.994510 699.813290 356.994510 681.417320 338.654295 C 663.021347 320.314083 663.021347 290.578721 681.417320 272.238509 C 699.813290 253.898295 729.639053 253.898295 748.035023 272.238509" dclass="DKDrawableShape" fill="url(#B27B31A9-02AA-4232-A2FD-5D7420D14F2F)"></path>
+        <path ID="e12_E5E5A144-7E55-4B44-9812-C383082D5995" d=" M 748.035023 272.238509 C 766.430996 290.578721 766.430996 320.314083 748.035023 338.654295 C 729.639053 356.994510 699.813290 356.994510 681.417320 338.654295 C 663.021347 320.314083 663.021347 290.578721 681.417320 272.238509 C 699.813290 253.898295 729.639053 253.898295 748.035023 272.238509" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <Hotspots>
+            <StickySpot id_sticky_spot="C20CEB6D-8ED6-45AA-A418-EFA568AC4204_32774" relative_location="{0.253241,0.431003}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="C20CEB6D-8ED6-45AA-A418-EFA568AC4204_32773" relative_location="{-0.308228,0.393442}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="C20CEB6D-8ED6-45AA-A418-EFA568AC4204_32772" relative_location="{0.425682,-0.262051}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="C20CEB6D-8ED6-45AA-A418-EFA568AC4204_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="C20CEB6D-8ED6-45AA-A418-EFA568AC4204_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="C20CEB6D-8ED6-45AA-A418-EFA568AC4204_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="C20CEB6D-8ED6-45AA-A418-EFA568AC4204_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+        </Hotspots>
+        <g></g>
+    </g>
+    <g ID="e12_168BE3AC-611C-4305-8C68-ED9A35EA55B0" dclass="DiaElement" element_type="e12">
+        <path ID="contour_63FF3833-95C9-4D87-BFE7-027B844B2177" d=" M 274.726171 559.900029 C 246.602935 559.900029 223.725697 537.091186 223.725697 509.056029 C 223.725697 481.021817 246.602935 458.212029 274.726171 458.212029 C 302.847510 458.212029 325.725697 481.021817 325.725697 509.056029 C 325.724748 537.091186 302.847510 559.900029 274.726171 559.900029 L 274.726171 559.900029 Z M 274.726171 559.900029" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+        <path ID="e12_0F1EDE1C-F52E-4EB8-811A-95D5912FD6C3" d=" M 308.035023 475.848136 C 326.430996 494.188348 326.430996 523.923709 308.035023 542.263921 C 289.639053 560.604136 259.813290 560.604136 241.417320 542.263921 C 223.021347 523.923709 223.021347 494.188348 241.417320 475.848136 C 259.813290 457.507921 289.639053 457.507921 308.035023 475.848136" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <path ID="e12_C1CF6B00-09AD-489C-9B28-182CE5E74566" d=" M 308.035023 475.848136 C 326.430996 494.188348 326.430996 523.923709 308.035023 542.263921 C 289.639053 560.604136 259.813290 560.604136 241.417320 542.263921 C 223.021347 523.923709 223.021347 494.188348 241.417320 475.848136 C 259.813290 457.507921 289.639053 457.507921 308.035023 475.848136" dclass="DKDrawableShape" fill="url(#2B06F71A-E208-4D24-B55F-584D9580C894)"></path>
+        <path ID="e12_A3EE2F2E-1B05-4595-A628-214067E5160A" d=" M 308.035023 475.848136 C 326.430996 494.188348 326.430996 523.923709 308.035023 542.263921 C 289.639053 560.604136 259.813290 560.604136 241.417320 542.263921 C 223.021347 523.923709 223.021347 494.188348 241.417320 475.848136 C 259.813290 457.507921 289.639053 457.507921 308.035023 475.848136" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <Hotspots>
+            <StickySpot id_sticky_spot="A9F3C086-D6EF-427B-AFDA-B4096C2EE9C1_32773" relative_location="{-0.157692,0.474527}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="A9F3C086-D6EF-427B-AFDA-B4096C2EE9C1_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="A9F3C086-D6EF-427B-AFDA-B4096C2EE9C1_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="A9F3C086-D6EF-427B-AFDA-B4096C2EE9C1_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="A9F3C086-D6EF-427B-AFDA-B4096C2EE9C1_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="A9F3C086-D6EF-427B-AFDA-B4096C2EE9C1_32772" relative_location="{0.308226,-0.393439}" position_kind="2"></StickySpot>
+        </Hotspots>
+        <g></g>
+    </g>
+    <g ID="e12_C36189F8-5F57-4CCD-B601-882D64F88069" dclass="DiaElement" element_type="e12">
+        <path ID="contour_65DE1AE1-6295-4A01-A74B-EB6B82FAB7A9" d=" M 554.726171 559.900029 C 526.602935 559.900029 503.725697 537.091186 503.725697 509.056029 C 503.725697 481.021817 526.602935 458.212029 554.726171 458.212029 C 582.847510 458.212029 605.725697 481.021817 605.725697 509.056029 C 605.724748 537.091186 582.847510 559.900029 554.726171 559.900029 L 554.726171 559.900029 Z M 554.726171 559.900029" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+        <path ID="e12_1B66741A-1518-485A-923F-B38842277217" d=" M 588.035023 475.848136 C 606.430996 494.188348 606.430996 523.923709 588.035023 542.263921 C 569.639053 560.604136 539.813290 560.604136 521.417320 542.263921 C 503.021347 523.923709 503.021347 494.188348 521.417320 475.848136 C 539.813290 457.507921 569.639053 457.507921 588.035023 475.848136" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <path ID="e12_0EC96E22-276A-47A6-A89B-8074A3BAD72E" d=" M 588.035023 475.848136 C 606.430996 494.188348 606.430996 523.923709 588.035023 542.263921 C 569.639053 560.604136 539.813290 560.604136 521.417320 542.263921 C 503.021347 523.923709 503.021347 494.188348 521.417320 475.848136 C 539.813290 457.507921 569.639053 457.507921 588.035023 475.848136" dclass="DKDrawableShape" fill="url(#86A7D9B7-AE38-4D6E-B3B2-B43AB7BF5328)"></path>
+        <path ID="e12_7E1200CD-8C05-43A0-B302-6B26CAC804EB" d=" M 588.035023 475.848136 C 606.430996 494.188348 606.430996 523.923709 588.035023 542.263921 C 569.639053 560.604136 539.813290 560.604136 521.417320 542.263921 C 503.021347 523.923709 503.021347 494.188348 521.417320 475.848136 C 539.813290 457.507921 569.639053 457.507921 588.035023 475.848136" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <Hotspots>
+            <StickySpot id_sticky_spot="332D9010-C970-43C7-BB08-CA0887A8A2BD_32774" relative_location="{0.223038,0.447444}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="332D9010-C970-43C7-BB08-CA0887A8A2BD_32773" relative_location="{-0.223038,0.447445}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="332D9010-C970-43C7-BB08-CA0887A8A2BD_32772" relative_location="{0.308226,-0.393439}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="332D9010-C970-43C7-BB08-CA0887A8A2BD_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="332D9010-C970-43C7-BB08-CA0887A8A2BD_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="332D9010-C970-43C7-BB08-CA0887A8A2BD_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="332D9010-C970-43C7-BB08-CA0887A8A2BD_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+        </Hotspots>
+        <g></g>
+    </g>
+    <g ID="e12_D7E3B9EF-6D2D-4495-BF6D-ACE74678FA81" dclass="DiaElement" element_type="e12">
+        <path ID="contour_A1E69AE0-5725-455A-A5B9-BEACB1EADA63" d=" M 834.726171 559.900029 C 806.602935 559.900029 783.725697 537.091186 783.725697 509.056029 C 783.725697 481.021817 806.602935 458.212029 834.726171 458.212029 C 862.847510 458.212029 885.725697 481.021817 885.725697 509.056029 C 885.724748 537.091186 862.847510 559.900029 834.726171 559.900029 L 834.726171 559.900029 Z M 834.726171 559.900029" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+        <path ID="e12_ED942528-4BBC-409B-BB8D-8B3F41185783" d=" M 868.035023 475.848136 C 886.430996 494.188348 886.430996 523.923709 868.035023 542.263921 C 849.639053 560.604136 819.813290 560.604136 801.417320 542.263921 C 783.021347 523.923709 783.021347 494.188348 801.417320 475.848136 C 819.813290 457.507921 849.639053 457.507921 868.035023 475.848136" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <path ID="e12_2F56BB75-4E44-4240-A43D-62F8A69F2284" d=" M 868.035023 475.848136 C 886.430996 494.188348 886.430996 523.923709 868.035023 542.263921 C 849.639053 560.604136 819.813290 560.604136 801.417320 542.263921 C 783.021347 523.923709 783.021347 494.188348 801.417320 475.848136 C 819.813290 457.507921 849.639053 457.507921 868.035023 475.848136" dclass="DKDrawableShape" fill="url(#DEA35219-7737-44B0-B342-6E2AE810542B)"></path>
+        <path ID="e12_8AF8B9E5-CC23-449F-B0D9-C2F7E2782A3C" d=" M 868.035023 475.848136 C 886.430996 494.188348 886.430996 523.923709 868.035023 542.263921 C 849.639053 560.604136 819.813290 560.604136 801.417320 542.263921 C 783.021347 523.923709 783.021347 494.188348 801.417320 475.848136 C 819.813290 457.507921 849.639053 457.507921 868.035023 475.848136" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <Hotspots>
+            <StickySpot id_sticky_spot="642FFBB1-AB78-4B7F-A712-3020CBFF4EE2_32772" relative_location="{-0.253241,-0.431003}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="642FFBB1-AB78-4B7F-A712-3020CBFF4EE2_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="642FFBB1-AB78-4B7F-A712-3020CBFF4EE2_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="642FFBB1-AB78-4B7F-A712-3020CBFF4EE2_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="642FFBB1-AB78-4B7F-A712-3020CBFF4EE2_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+        </Hotspots>
+        <g></g>
+    </g>
+    <g ID="e12_270346EB-5FA9-47F1-B74E-8649E9E3DC14" dclass="DiaElement" element_type="e12">
+        <path ID="contour_30765F04-4E98-47AE-A0CB-E24D032098A9" d=" M 1234.726171 559.900029 C 1206.602935 559.900029 1183.725697 537.091186 1183.725697 509.056029 C 1183.725697 481.021817 1206.602935 458.212029 1234.726171 458.212029 C 1262.847510 458.212029 1285.725697 481.021817 1285.725697 509.056029 C 1285.724748 537.091186 1262.847510 559.900029 1234.726171 559.900029 L 1234.726171 559.900029 Z M 1234.726171 559.900029" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+        <path ID="e12_1E8671A3-5E13-4DBD-8395-E7B5D4264EFB" d=" M 1268.035023 475.848136 C 1286.430996 494.188348 1286.430996 523.923709 1268.035023 542.263921 C 1249.639053 560.604136 1219.813290 560.604136 1201.417320 542.263921 C 1183.021347 523.923709 1183.021347 494.188348 1201.417320 475.848136 C 1219.813290 457.507921 1249.639053 457.507921 1268.035023 475.848136" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <path ID="e12_2C4BABB5-71B3-4E6A-86CD-69DC1474D171" d=" M 1268.035023 475.848136 C 1286.430996 494.188348 1286.430996 523.923709 1268.035023 542.263921 C 1249.639053 560.604136 1219.813290 560.604136 1201.417320 542.263921 C 1183.021347 523.923709 1183.021347 494.188348 1201.417320 475.848136 C 1219.813290 457.507921 1249.639053 457.507921 1268.035023 475.848136" dclass="DKDrawableShape" fill="url(#6870EBD2-0CD3-4EDA-896C-CF1D779535B6)"></path>
+        <path ID="e12_3E3452FD-2021-4F76-8023-918D9462F998" d=" M 1268.035023 475.848136 C 1286.430996 494.188348 1286.430996 523.923709 1268.035023 542.263921 C 1249.639053 560.604136 1219.813290 560.604136 1201.417320 542.263921 C 1183.021347 523.923709 1183.021347 494.188348 1201.417320 475.848136 C 1219.813290 457.507921 1249.639053 457.507921 1268.035023 475.848136" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <Hotspots>
+            <StickySpot id_sticky_spot="F0B7AAEE-5C0C-495C-8D05-D4A250F90193_32773" relative_location="{-0.157692,0.474527}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="F0B7AAEE-5C0C-495C-8D05-D4A250F90193_32772" relative_location="{0.349666,-0.357069}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="F0B7AAEE-5C0C-495C-8D05-D4A250F90193_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="F0B7AAEE-5C0C-495C-8D05-D4A250F90193_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="F0B7AAEE-5C0C-495C-8D05-D4A250F90193_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="F0B7AAEE-5C0C-495C-8D05-D4A250F90193_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+        </Hotspots>
+        <g></g>
+    </g>
+    <g ID="e12_B7D0E8EC-F518-4B0E-883D-E4AE8DC93102" dclass="DiaElement" element_type="e12">
+        <path ID="contour_6E0E39B1-3D95-4F6C-A290-AB84E16CF51C" d=" M 1634.726171 559.900029 C 1606.602935 559.900029 1583.725697 537.091186 1583.725697 509.056029 C 1583.725697 481.021817 1606.602935 458.212029 1634.726171 458.212029 C 1662.847510 458.212029 1685.725697 481.021817 1685.725697 509.056029 C 1685.724748 537.091186 1662.847510 559.900029 1634.726171 559.900029 L 1634.726171 559.900029 Z M 1634.726171 559.900029" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+        <path ID="e12_FDCE44DF-62B7-415E-897C-19DCC1AE7AFF" d=" M 1668.035023 475.848136 C 1686.430996 494.188348 1686.430996 523.923709 1668.035023 542.263921 C 1649.639053 560.604136 1619.813290 560.604136 1601.417320 542.263921 C 1583.021347 523.923709 1583.021347 494.188348 1601.417320 475.848136 C 1619.813290 457.507921 1649.639053 457.507921 1668.035023 475.848136" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <path ID="e12_240E42BE-EC86-4ABD-B2F6-B1A1CFC187B7" d=" M 1668.035023 475.848136 C 1686.430996 494.188348 1686.430996 523.923709 1668.035023 542.263921 C 1649.639053 560.604136 1619.813290 560.604136 1601.417320 542.263921 C 1583.021347 523.923709 1583.021347 494.188348 1601.417320 475.848136 C 1619.813290 457.507921 1649.639053 457.507921 1668.035023 475.848136" dclass="DKDrawableShape" fill="url(#E02EE017-176E-45AA-A508-BAA4A29378EB)"></path>
+        <path ID="e12_6B865340-3D6D-4A78-8D13-630AC4396D0E" d=" M 1668.035023 475.848136 C 1686.430996 494.188348 1686.430996 523.923709 1668.035023 542.263921 C 1649.639053 560.604136 1619.813290 560.604136 1601.417320 542.263921 C 1583.021347 523.923709 1583.021347 494.188348 1601.417320 475.848136 C 1619.813290 457.507921 1649.639053 457.507921 1668.035023 475.848136" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <Hotspots>
+            <StickySpot id_sticky_spot="F2ABD03F-9EB5-40E2-BD83-6E60A94F7CDB_32774" relative_location="{-0.276680,0.416294}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="F2ABD03F-9EB5-40E2-BD83-6E60A94F7CDB_32772" relative_location="{-0.349667,-0.357070}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="F2ABD03F-9EB5-40E2-BD83-6E60A94F7CDB_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="F2ABD03F-9EB5-40E2-BD83-6E60A94F7CDB_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="F2ABD03F-9EB5-40E2-BD83-6E60A94F7CDB_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="F2ABD03F-9EB5-40E2-BD83-6E60A94F7CDB_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="F2ABD03F-9EB5-40E2-BD83-6E60A94F7CDB_32773" relative_location="{0.157692,0.474527}" position_kind="2"></StickySpot>
+        </Hotspots>
+        <g></g>
+    </g>
+    <g ID="e12_C2747F43-FA5C-4DE1-B441-843EF23CA2F8" dclass="DiaElement" element_type="e12">
+        <path ID="contour_7F3BC082-30CC-485B-A99B-ED6532BF63BF" d=" M 1714.726171 799.900029 C 1686.602935 799.900029 1663.725697 777.091186 1663.725697 749.056029 C 1663.725697 721.021817 1686.602935 698.212029 1714.726171 698.212029 C 1742.847510 698.212029 1765.725697 721.021817 1765.725697 749.056029 C 1765.724748 777.091186 1742.847510 799.900029 1714.726171 799.900029 L 1714.726171 799.900029 Z M 1714.726171 799.900029" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+        <path ID="e12_07AE9FC8-55A3-41BF-B6C3-C04B18431CAA" d=" M 1748.035023 715.848136 C 1766.430996 734.188348 1766.430996 763.923709 1748.035023 782.263921 C 1729.639053 800.604136 1699.813290 800.604136 1681.417320 782.263921 C 1663.021347 763.923709 1663.021347 734.188348 1681.417320 715.848136 C 1699.813290 697.507921 1729.639053 697.507921 1748.035023 715.848136" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <path ID="e12_F46AFD28-E50A-4D6F-8B74-1E0D761C5302" d=" M 1748.035023 715.848136 C 1766.430996 734.188348 1766.430996 763.923709 1748.035023 782.263921 C 1729.639053 800.604136 1699.813290 800.604136 1681.417320 782.263921 C 1663.021347 763.923709 1663.021347 734.188348 1681.417320 715.848136 C 1699.813290 697.507921 1729.639053 697.507921 1748.035023 715.848136" dclass="DKDrawableShape" fill="url(#0C1A9243-45AC-4820-BEA5-3EF4A6259666)"></path>
+        <path ID="e12_8BCC2DCE-A1AD-441A-9239-663E5E517C3E" d=" M 1748.035023 715.848136 C 1766.430996 734.188348 1766.430996 763.923709 1748.035023 782.263921 C 1729.639053 800.604136 1699.813290 800.604136 1681.417320 782.263921 C 1663.021347 763.923709 1663.021347 734.188348 1681.417320 715.848136 C 1699.813290 697.507921 1729.639053 697.507921 1748.035023 715.848136" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <Hotspots>
+            <StickySpot id_sticky_spot="59C6EDC6-1A51-4A5E-81D3-90460F161ACD_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="59C6EDC6-1A51-4A5E-81D3-90460F161ACD_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="59C6EDC6-1A51-4A5E-81D3-90460F161ACD_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="59C6EDC6-1A51-4A5E-81D3-90460F161ACD_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="59C6EDC6-1A51-4A5E-81D3-90460F161ACD_32772" relative_location="{-0.157692,-0.474526}" position_kind="2"></StickySpot>
+        </Hotspots>
+        <g></g>
+    </g>
+    <g ID="e12_65B36ED0-3042-462B-BEE7-714F3FCC3F71" dclass="DiaElement" element_type="e12">
+        <path ID="contour_51DE6554-B29F-4822-AEEE-A517F3D73B26" d=" M 1474.726171 799.900029 C 1446.602935 799.900029 1423.725697 777.091186 1423.725697 749.056029 C 1423.725697 721.021817 1446.602935 698.212029 1474.726171 698.212029 C 1502.847510 698.212029 1525.725697 721.021817 1525.725697 749.056029 C 1525.724748 777.091186 1502.847510 799.900029 1474.726171 799.900029 L 1474.726171 799.900029 Z M 1474.726171 799.900029" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+        <path ID="e12_49784D94-1869-4D9C-986B-65CD8BDBE7A4" d=" M 1508.035023 715.848136 C 1526.430996 734.188348 1526.430996 763.923709 1508.035023 782.263921 C 1489.639053 800.604136 1459.813290 800.604136 1441.417320 782.263921 C 1423.021347 763.923709 1423.021347 734.188348 1441.417320 715.848136 C 1459.813290 697.507921 1489.639053 697.507921 1508.035023 715.848136" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <path ID="e12_5465B0A3-AFEE-472D-B98F-B764FA3F4262" d=" M 1508.035023 715.848136 C 1526.430996 734.188348 1526.430996 763.923709 1508.035023 782.263921 C 1489.639053 800.604136 1459.813290 800.604136 1441.417320 782.263921 C 1423.021347 763.923709 1423.021347 734.188348 1441.417320 715.848136 C 1459.813290 697.507921 1489.639053 697.507921 1508.035023 715.848136" dclass="DKDrawableShape" fill="url(#0B2379D8-8C5E-4EFA-884E-C8A49AF75AFD)"></path>
+        <path ID="e12_14841D26-24EA-4D4F-8A84-2970A322803F" d=" M 1508.035023 715.848136 C 1526.430996 734.188348 1526.430996 763.923709 1508.035023 782.263921 C 1489.639053 800.604136 1459.813290 800.604136 1441.417320 782.263921 C 1423.021347 763.923709 1423.021347 734.188348 1441.417320 715.848136 C 1459.813290 697.507921 1489.639053 697.507921 1508.035023 715.848136" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <Hotspots>
+            <StickySpot id_sticky_spot="E9556790-0F35-408E-A6B9-4E225EF3E693_32772" relative_location="{0.276678,-0.416291}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="E9556790-0F35-408E-A6B9-4E225EF3E693_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="E9556790-0F35-408E-A6B9-4E225EF3E693_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="E9556790-0F35-408E-A6B9-4E225EF3E693_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="E9556790-0F35-408E-A6B9-4E225EF3E693_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+        </Hotspots>
+        <g></g>
+    </g>
+    <g ID="e12_6DC1AA76-1BD3-4770-8739-CC032C7305DE" dclass="DiaElement" element_type="e12">
+        <path ID="contour_BAD75C65-F296-4123-BFEF-36216CFEA291" d=" M 1154.726171 799.900029 C 1126.602935 799.900029 1103.725697 777.091186 1103.725697 749.056029 C 1103.725697 721.021817 1126.602935 698.212029 1154.726171 698.212029 C 1182.847510 698.212029 1205.725697 721.021817 1205.725697 749.056029 C 1205.724748 777.091186 1182.847510 799.900029 1154.726171 799.900029 L 1154.726171 799.900029 Z M 1154.726171 799.900029" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+        <path ID="e12_A2EF6336-AC23-4D6F-8617-6A4B4D7565AA" d=" M 1188.035023 715.848136 C 1206.430996 734.188348 1206.430996 763.923709 1188.035023 782.263921 C 1169.639053 800.604136 1139.813290 800.604136 1121.417320 782.263921 C 1103.021347 763.923709 1103.021347 734.188348 1121.417320 715.848136 C 1139.813290 697.507921 1169.639053 697.507921 1188.035023 715.848136" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <path ID="e12_E778ABEE-F6E5-4D57-ACD9-C59609D4469C" d=" M 1188.035023 715.848136 C 1206.430996 734.188348 1206.430996 763.923709 1188.035023 782.263921 C 1169.639053 800.604136 1139.813290 800.604136 1121.417320 782.263921 C 1103.021347 763.923709 1103.021347 734.188348 1121.417320 715.848136 C 1139.813290 697.507921 1169.639053 697.507921 1188.035023 715.848136" dclass="DKDrawableShape" fill="url(#AEF608A0-198B-43BA-BB64-2127A7983F14)"></path>
+        <path ID="e12_8E0D7AB4-F9DC-4302-A245-F2D0E1032918" d=" M 1188.035023 715.848136 C 1206.430996 734.188348 1206.430996 763.923709 1188.035023 782.263921 C 1169.639053 800.604136 1139.813290 800.604136 1121.417320 782.263921 C 1103.021347 763.923709 1103.021347 734.188348 1121.417320 715.848136 C 1139.813290 697.507921 1169.639053 697.507921 1188.035023 715.848136" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <Hotspots>
+            <StickySpot id_sticky_spot="8AE3DA5D-6DF0-41A5-9614-33C63E231128_32773" relative_location="{-0.383464,0.320534}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="8AE3DA5D-6DF0-41A5-9614-33C63E231128_32772" relative_location="{0.157692,-0.474526}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="8AE3DA5D-6DF0-41A5-9614-33C63E231128_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="8AE3DA5D-6DF0-41A5-9614-33C63E231128_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="8AE3DA5D-6DF0-41A5-9614-33C63E231128_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="8AE3DA5D-6DF0-41A5-9614-33C63E231128_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="8AE3DA5D-6DF0-41A5-9614-33C63E231128_32775" relative_location="{0.352845,0.353927}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="8AE3DA5D-6DF0-41A5-9614-33C63E231128_32776" relative_location="{0.000000,0.500000}" position_kind="2"></StickySpot>
+        </Hotspots>
+        <g></g>
+    </g>
+    <g ID="e12_B742D481-705F-4EC0-AD99-93003DEA2FF6" dclass="DiaElement" element_type="e12">
+        <path ID="contour_B0B739FB-FAB4-409E-8EBF-7CF74830DAC3" d=" M 434.726171 799.900029 C 406.602935 799.900029 383.725697 777.091186 383.725697 749.056029 C 383.725697 721.021817 406.602935 698.212029 434.726171 698.212029 C 462.847510 698.212029 485.725697 721.021817 485.725697 749.056029 C 485.724748 777.091186 462.847510 799.900029 434.726171 799.900029 L 434.726171 799.900029 Z M 434.726171 799.900029" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+        <path ID="e12_8A744670-7B7A-47FC-A52E-4093C51B6215" d=" M 468.035023 715.848136 C 486.430996 734.188348 486.430996 763.923709 468.035023 782.263921 C 449.639053 800.604136 419.813290 800.604136 401.417320 782.263921 C 383.021347 763.923709 383.021347 734.188348 401.417320 715.848136 C 419.813290 697.507921 449.639053 697.507921 468.035023 715.848136" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <path ID="e12_B1AFA1AA-5B5F-4CC2-9832-3FE007BE6A2E" d=" M 468.035023 715.848136 C 486.430996 734.188348 486.430996 763.923709 468.035023 782.263921 C 449.639053 800.604136 419.813290 800.604136 401.417320 782.263921 C 383.021347 763.923709 383.021347 734.188348 401.417320 715.848136 C 419.813290 697.507921 449.639053 697.507921 468.035023 715.848136" dclass="DKDrawableShape" fill="url(#CDF28AAB-2FEF-4517-9589-3E8156D550E3)"></path>
+        <path ID="e12_CB7A1FDA-EBF6-45E4-B4F2-33806883AED0" d=" M 468.035023 715.848136 C 486.430996 734.188348 486.430996 763.923709 468.035023 782.263921 C 449.639053 800.604136 419.813290 800.604136 401.417320 782.263921 C 383.021347 763.923709 383.021347 734.188348 401.417320 715.848136 C 419.813290 697.507921 449.639053 697.507921 468.035023 715.848136" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <Hotspots>
+            <StickySpot id_sticky_spot="B59C8A43-C288-4116-901E-CB4674AE2FA2_32774" relative_location="{0.185210,0.464446}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="B59C8A43-C288-4116-901E-CB4674AE2FA2_32773" relative_location="{-0.256612,0.428999}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="B59C8A43-C288-4116-901E-CB4674AE2FA2_32772" relative_location="{0.223038,-0.447444}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="B59C8A43-C288-4116-901E-CB4674AE2FA2_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="B59C8A43-C288-4116-901E-CB4674AE2FA2_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="B59C8A43-C288-4116-901E-CB4674AE2FA2_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="B59C8A43-C288-4116-901E-CB4674AE2FA2_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+        </Hotspots>
+        <g></g>
+    </g>
+    <g ID="e12_5F4CBE45-7C57-4316-A15E-0F8CECA95DE0" dclass="DiaElement" element_type="e12">
+        <path ID="contour_295F3A1F-94DC-4EED-8F17-F49400ED9856" d=" M 674.726171 799.900029 C 646.602935 799.900029 623.725697 777.091186 623.725697 749.056029 C 623.725697 721.021817 646.602935 698.212029 674.726171 698.212029 C 702.847510 698.212029 725.725697 721.021817 725.725697 749.056029 C 725.724748 777.091186 702.847510 799.900029 674.726171 799.900029 L 674.726171 799.900029 Z M 674.726171 799.900029" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+        <path ID="e12_7AF05289-1E26-45CA-B140-3B49C7E58C22" d=" M 708.035023 715.848136 C 726.430996 734.188348 726.430996 763.923709 708.035023 782.263921 C 689.639053 800.604136 659.813290 800.604136 641.417320 782.263921 C 623.021347 763.923709 623.021347 734.188348 641.417320 715.848136 C 659.813290 697.507921 689.639053 697.507921 708.035023 715.848136" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <path ID="e12_DEC64F8D-16F2-43F0-9460-71B9202CDA78" d=" M 708.035023 715.848136 C 726.430996 734.188348 726.430996 763.923709 708.035023 782.263921 C 689.639053 800.604136 659.813290 800.604136 641.417320 782.263921 C 623.021347 763.923709 623.021347 734.188348 641.417320 715.848136 C 659.813290 697.507921 689.639053 697.507921 708.035023 715.848136" dclass="DKDrawableShape" fill="url(#1571564B-A954-430E-881B-7BDD6F1DCC56)"></path>
+        <path ID="e12_6BF34FDE-EFB1-4F79-B1F3-A04F91FF365E" d=" M 708.035023 715.848136 C 726.430996 734.188348 726.430996 763.923709 708.035023 782.263921 C 689.639053 800.604136 659.813290 800.604136 641.417320 782.263921 C 623.021347 763.923709 623.021347 734.188348 641.417320 715.848136 C 659.813290 697.507921 689.639053 697.507921 708.035023 715.848136" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <Hotspots>
+            <StickySpot id_sticky_spot="EE2F57F9-640E-4B42-9807-57E717770028_32772" relative_location="{-0.223038,-0.447444}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="EE2F57F9-640E-4B42-9807-57E717770028_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="EE2F57F9-640E-4B42-9807-57E717770028_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="EE2F57F9-640E-4B42-9807-57E717770028_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="EE2F57F9-640E-4B42-9807-57E717770028_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+        </Hotspots>
+        <g></g>
+    </g>
+    <g dclass="DiaConnector">
+        <g enabled="1" ID="68690CE7-7A22-4EBD-A677-9997F214431F" dclass="DiaConnectorStyle">
+            <path d=" M 991.305817 135.703674 L 758.145255 278.798955" dclass="DiaConnectorStylizedPath" fill="none" stroke="#998A95" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g dclass="DiaConnectorArrow">
+                <path ID="tempBoundsRect_1__F0432665-D9D9-466A-A463-05E5F8F03C99" d=" M 779.898687 253.066649 L 790.938959 271.055750 L 763.665648 287.793927 L 752.625377 269.804825 Z M 779.898687 253.066649" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+                <path d=" M 775.009750 258.848991 L 779.898687 253.066649 C 779.898687 253.066649 779.235219 259.540700 782.163100 264.311412 C 785.090981 269.082123 790.938959 271.055750 790.938959 271.055750 L 758.145254 278.798955 L 775.009750 258.848991 Z M 775.009750 258.848991" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+                <path d=" M 779.898687 253.066649 C 779.898687 253.066649 779.235219 259.540700 782.163100 264.311412 C 785.090981 269.082123 790.938959 271.055750 790.938959 271.055750 L 758.145254 278.798955 L 779.898687 253.066649 Z M 779.898687 253.066649" dclass="DKDrawableShape" fill="url(#289C900B-95D7-4504-96F5-88A05A654996)"></path>
+                <path d=" M 774.733111 259.176411 L 779.898170 253.065807 C 779.898170 253.065807 779.234702 259.539858 782.162584 264.310570 C 785.090465 269.081281 790.938442 271.054908 790.938442 271.054908 L 758.144737 278.798113 L 774.733111 259.176411 Z M 774.733111 259.176411" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+            </g>
+        </g>
+        <ConnectorEndPoint id_target_sticky_spot="8517E2F7-3DD0-4C42-A132-413D4FD86D6D_32772" is_start="1" location="{991.30581663123883, 135.70367388295568}"></ConnectorEndPoint>
+        <ConnectorEndPoint id_target_sticky_spot="C20CEB6D-8ED6-45AA-A418-EFA568AC4204_32772" is_start="0" location="{758.14525456924457, 278.79895477256315}"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#62649FFD-5D22-438D-90F8-C3CC0C9376DB" baseline-shift="0.000000" startOffset="0.000000%"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g enabled="1" ID="50C7CAB8-06EB-4B57-ACC1-9AC4BA63DCA5" dclass="DiaConnectorStyle">
+            <path d=" M 986.266217 124.917654 L 483.184995 289.584836" dclass="DiaConnectorStylizedPath" fill="none" stroke="#998A95" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g dclass="DiaConnectorArrow">
+                <path ID="tempBoundsRect_1__34ED8066-6562-4013-AD12-EC39862C8443" d=" M 510.314540 269.601062 L 516.880373 289.660604 L 486.468065 299.615076 L 479.902232 279.555535 Z M 510.314540 269.601062" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+                <path d=" M 504.217548 274.091483 L 510.314540 269.601062 C 510.314540 269.601062 508.167273 275.744577 509.908533 281.064370 C 511.649793 286.384162 516.880373 289.660604 516.880373 289.660604 L 483.184995 289.584836 L 504.217548 274.091483 Z M 504.217548 274.091483" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+                <path d=" M 510.314540 269.601062 C 510.314540 269.601062 508.167273 275.744577 509.908533 281.064370 C 511.649793 286.384162 516.880373 289.660604 516.880373 289.660604 L 483.184995 289.584836 L 510.314540 269.601062 Z M 510.314540 269.601062" dclass="DKDrawableShape" fill="url(#75A8248F-1551-4C5B-A420-FC0CA1F548E8)"></path>
+                <path d=" M 503.872499 274.345794 L 510.314232 269.600123 C 510.314232 269.600123 508.166966 275.743639 509.908226 281.063431 C 511.649485 286.383223 516.880066 289.659665 516.880066 289.659665 L 483.184688 289.583897 L 503.872499 274.345794 Z M 503.872499 274.345794" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+            </g>
+        </g>
+        <ConnectorEndPoint id_target_sticky_spot="8517E2F7-3DD0-4C42-A132-413D4FD86D6D_32773" is_start="1" location="{986.26621723036112, 124.91765411867392}"></ConnectorEndPoint>
+        <ConnectorEndPoint id_target_sticky_spot="884A1EF8-8335-45CE-BC33-C855D840A5C5_32772" is_start="0" location="{483.1849950195533, 289.58483606036503}"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#0F7D4A2B-355E-4B5D-831E-191D68F807D6" baseline-shift="0.000000" startOffset="0.000000%"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g enabled="1" ID="0D2EB228-0054-4889-8646-BD5B0CB8B212" dclass="DiaConnectorStyle">
+            <path d=" M 1080.473894 131.517293 L 1388.977214 282.984998" dclass="DiaConnectorStylizedPath" fill="none" stroke="#998A95" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g dclass="DiaConnectorArrow">
+                <path ID="tempBoundsRect_1__2C2A1E3E-ABFA-4322-B0F7-D6CD0B345101" d=" M 1358.730678 278.788738 L 1367.160800 261.618604 L 1393.192473 274.399529 L 1384.762350 291.569663 Z M 1358.730678 278.788738" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+                <path d=" M 1365.527755 279.732217 L 1358.730678 278.788738 C 1358.730678 278.788738 1364.010669 276.160776 1366.246338 271.607255 C 1368.482008 267.053734 1367.160800 261.618604 1367.160800 261.618604 L 1388.977214 282.984998 L 1365.527755 279.732217 Z M 1365.527755 279.732217" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+                <path d=" M 1358.730678 278.788738 C 1358.730678 278.788738 1364.010669 276.160776 1366.246338 271.607255 C 1368.482008 267.053734 1367.160800 261.618604 1367.160800 261.618604 L 1388.977214 282.984998 L 1358.730678 278.788738 Z M 1358.730678 278.788738" dclass="DKDrawableShape" fill="url(#FA0F1AEC-6225-4D04-8594-601272AFE9DD)"></path>
+                <path d=" M 1365.912539 279.785492 L 1358.730283 278.789542 C 1358.730283 278.789542 1364.010274 276.161580 1366.245944 271.608058 C 1368.481613 267.054537 1367.160406 261.619408 1367.160406 261.619408 L 1388.976819 282.985801 L 1365.912539 279.785492 Z M 1365.912539 279.785492" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+            </g>
+        </g>
+        <ConnectorEndPoint id_target_sticky_spot="8517E2F7-3DD0-4C42-A132-413D4FD86D6D_32774" is_start="1" location="{1080.4738942397307, 131.51729262844253}"></ConnectorEndPoint>
+        <ConnectorEndPoint id_target_sticky_spot="D3F74BE1-6F83-4CAF-B33D-34CE17806DB7_32772" is_start="0" location="{1388.9772138784995, 282.98499810548918}"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#E7E15787-9930-42BF-9F4B-F045C6612056" baseline-shift="0.000000" startOffset="0.000000%"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g enabled="1" ID="B3D55588-DB63-4047-A750-4D5DEBBCA28B" dclass="DiaConnectorStyle">
+            <path d=" M 403.286439 345.454749 L 306.164730 469.047968" dclass="DiaConnectorStylizedPath" fill="none" stroke="#998A95" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g dclass="DiaConnectorArrow">
+                <path ID="tempBoundsRect_1__09BB4420-3B2E-4D29-8BDF-93B0724BB2FB" d=" M 317.639112 437.366712 L 334.234914 450.407983 L 314.463019 475.568909 L 297.867217 462.527638 Z M 317.639112 437.366712" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+                <path d=" M 315.060037 444.486092 L 317.639112 437.366712 C 317.639112 437.366712 319.263025 443.668810 323.664233 447.127357 C 328.065441 450.585903 334.234914 450.407983 334.234914 450.407983 L 306.164730 469.047968 L 315.060037 444.486092 Z M 315.060037 444.486092" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+                <path d=" M 317.639112 437.366712 C 317.639112 437.366712 319.263025 443.668810 323.664233 447.127357 C 328.065441 450.585903 334.234914 450.407983 334.234914 450.407983 L 306.164730 469.047968 L 317.639112 437.366712 Z M 317.639112 437.366712" dclass="DKDrawableShape" fill="url(#8186F26B-F055-4048-9A8A-B90AB729574B)"></path>
+                <path d=" M 314.914181 444.889153 L 317.638335 437.366102 C 317.638335 437.366102 319.262248 443.668200 323.663456 447.126746 C 328.064664 450.585292 334.234137 450.407373 334.234137 450.407373 L 306.163953 469.047358 L 314.914181 444.889153 Z M 314.914181 444.889153" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+            </g>
+        </g>
+        <ConnectorEndPoint id_target_sticky_spot="884A1EF8-8335-45CE-BC33-C855D840A5C5_32773" is_start="1" location="{403.28643911953588, 345.45474909622885}"></ConnectorEndPoint>
+        <ConnectorEndPoint id_target_sticky_spot="A9F3C086-D6EF-427B-AFDA-B4096C2EE9C1_32772" is_start="0" location="{306.1647297135749, 469.04796766239917}"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#3A257515-C2A0-40FF-A402-F6C51EC7DC26" baseline-shift="0.000000" startOffset="0.000000%"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g enabled="1" ID="51FC9742-ECB1-46F6-B941-5D949FBF65CD" dclass="DiaConnectorStyle">
+            <path d=" M 683.286439 345.454749 L 586.164730 469.047968" dclass="DiaConnectorStylizedPath" fill="none" stroke="#998A95" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g dclass="DiaConnectorArrow">
+                <path ID="tempBoundsRect_1__3C307873-77BA-4329-89F4-7EF48EA2C636" d=" M 597.639112 437.366712 L 614.234914 450.407983 L 594.463019 475.568909 L 577.867217 462.527638 Z M 597.639112 437.366712" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+                <path d=" M 595.060037 444.486092 L 597.639112 437.366712 C 597.639112 437.366712 599.263025 443.668810 603.664233 447.127357 C 608.065441 450.585903 614.234914 450.407983 614.234914 450.407983 L 586.164730 469.047968 L 595.060037 444.486092 Z M 595.060037 444.486092" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+                <path d=" M 597.639112 437.366712 C 597.639112 437.366712 599.263025 443.668810 603.664233 447.127357 C 608.065441 450.585903 614.234914 450.407983 614.234914 450.407983 L 586.164730 469.047968 L 597.639112 437.366712 Z M 597.639112 437.366712" dclass="DKDrawableShape" fill="url(#E151135A-70C6-454E-8C0E-97B6680D78A9)"></path>
+                <path d=" M 594.914181 444.889153 L 597.638335 437.366102 C 597.638335 437.366102 599.262248 443.668200 603.663456 447.126746 C 608.064664 450.585292 614.234137 450.407373 614.234137 450.407373 L 586.163953 469.047358 L 594.914181 444.889153 Z M 594.914181 444.889153" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+            </g>
+        </g>
+        <ConnectorEndPoint id_target_sticky_spot="C20CEB6D-8ED6-45AA-A418-EFA568AC4204_32773" is_start="1" location="{683.28643911953577, 345.45474909622885}"></ConnectorEndPoint>
+        <ConnectorEndPoint id_target_sticky_spot="332D9010-C970-43C7-BB08-CA0887A8A2BD_32772" is_start="0" location="{586.16472971357496, 469.04796766239917}"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#43145B30-1E8F-4847-8B69-EA48702FA50D" baseline-shift="0.000000" startOffset="0.000000%"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g enabled="1" ID="220D8C33-EF1A-4252-A39E-69287A59C786" dclass="DiaConnectorStyle">
+            <path d=" M 740.556231 349.274280 L 808.895164 465.228153" dclass="DiaConnectorStylizedPath" fill="none" stroke="#998A95" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g dclass="DiaConnectorArrow">
+                <path ID="tempBoundsRect_1__D67B425C-8B55-4B6C-8D3B-4E3EAAA5BBB8" d=" M 783.556018 443.017996 L 801.739690 432.301212 L 817.987426 459.869510 L 799.803754 470.586294 Z M 783.556018 443.017996" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+                <path d=" M 789.250000 448.009565 L 783.556018 443.017996 C 783.556018 443.017996 790.017168 443.797142 794.839480 440.955050 C 799.661791 438.112957 801.739690 432.301212 801.739690 432.301212 L 808.895164 465.228153 L 789.250000 448.009565 Z M 789.250000 448.009565" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+                <path d=" M 783.556018 443.017996 C 783.556018 443.017996 790.017168 443.797142 794.839480 440.955050 C 799.661791 438.112957 801.739690 432.301212 801.739690 432.301212 L 808.895164 465.228153 L 783.556018 443.017996 Z M 783.556018 443.017996" dclass="DKDrawableShape" fill="url(#1CDBAED9-03A1-4172-99AE-9B1078987B7A)"></path>
+                <path d=" M 789.572420 448.292014 L 783.555167 443.018498 C 783.555167 443.018498 790.016317 443.797643 794.838629 440.955551 C 799.660940 438.113459 801.738839 432.301714 801.738839 432.301714 L 808.894313 465.228655 L 789.572420 448.292014 Z M 789.572420 448.292014" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+            </g>
+        </g>
+        <ConnectorEndPoint id_target_sticky_spot="C20CEB6D-8ED6-45AA-A418-EFA568AC4204_32774" is_start="1" location="{740.55623050347663, 349.27427994040039}"></ConnectorEndPoint>
+        <ConnectorEndPoint id_target_sticky_spot="642FFBB1-AB78-4B7F-A712-3020CBFF4EE2_32772" is_start="0" location="{808.89516435544556, 465.22815321008522}"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#C07A4654-1625-425F-B812-B4355BA1280F" baseline-shift="0.000000" startOffset="0.000000%"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g enabled="1" ID="D5B1392A-FEFD-4CD3-8EBE-C663634FC91B" dclass="DiaConnectorStyle">
+            <path d=" M 1399.059504 341.756303 L 1270.391598 472.746424" dclass="DiaConnectorStylizedPath" fill="none" stroke="#998A95" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g dclass="DiaConnectorArrow">
+                <path ID="tempBoundsRect_1__304E93CE-541B-49DF-8806-B06EB55E094B" d=" M 1283.890829 445.356055 L 1297.536787 458.760096 L 1277.214896 479.448758 L 1263.568938 466.044718 Z M 1283.890829 445.356055" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+                <path d=" M 1280.856788 451.511135 L 1283.890829 445.356055 C 1283.890829 445.356055 1284.724167 451.194723 1288.343076 454.749476 C 1291.961986 458.304229 1297.536787 458.760096 1297.536787 458.760096 L 1270.391598 472.746424 L 1280.856788 451.511135 Z M 1280.856788 451.511135" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+                <path d=" M 1283.890829 445.356055 C 1283.890829 445.356055 1284.724167 451.194723 1288.343076 454.749476 C 1291.961986 458.304229 1297.536787 458.760096 1297.536787 458.760096 L 1270.391598 472.746424 L 1283.890829 445.356055 Z M 1283.890829 445.356055" dclass="DKDrawableShape" fill="url(#E273F744-3FEE-4584-9DE8-BA2CFDE312A7)"></path>
+                <path d=" M 1280.685158 451.859618 L 1283.890190 445.355428 C 1283.890190 445.355428 1284.723528 451.194096 1288.342438 454.748848 C 1291.961347 458.303601 1297.536148 458.759468 1297.536148 458.759468 L 1270.390959 472.745797 L 1280.685158 451.859618 Z M 1280.685158 451.859618" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+            </g>
+        </g>
+        <ConnectorEndPoint id_target_sticky_spot="D3F74BE1-6F83-4CAF-B33D-34CE17806DB7_32773" is_start="1" location="{1399.0595039912246, 341.75630313106547}"></ConnectorEndPoint>
+        <ConnectorEndPoint id_target_sticky_spot="F0B7AAEE-5C0C-495C-8D05-D4A250F90193_32772" is_start="0" location="{1270.3915982149422, 472.74642427556387}"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#FCE34E68-C028-473B-827D-2AB0D535F305" baseline-shift="0.000000" startOffset="0.000000%"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g enabled="1" ID="F1C8C28D-4C95-4B7E-AF4C-5A65334AB26D" dclass="DiaConnectorStyle">
+            <path d=" M 1470.391602 341.756010 L 1599.059679 472.746306" dclass="DiaConnectorStylizedPath" fill="none" stroke="#998A95" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g dclass="DiaConnectorArrow">
+                <path ID="tempBoundsRect_1__82F0F652-0F2E-4FDB-95DA-EAB4840A5728" d=" M 1569.107073 457.312423 L 1584.164682 442.521758 L 1606.588837 465.350628 L 1591.531227 480.141293 Z M 1569.107073 457.312423" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+                <path d=" M 1575.837920 460.781268 L 1569.107073 457.312423 C 1569.107073 457.312423 1575.565156 456.508253 1579.558436 452.585768 C 1583.551715 448.663282 1584.164682 442.521758 1584.164682 442.521758 L 1599.059679 472.746307 L 1575.837920 460.781268 Z M 1575.837920 460.781268" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+                <path d=" M 1569.107073 457.312423 C 1569.107073 457.312423 1575.565156 456.508253 1579.558436 452.585768 C 1583.551715 448.663282 1584.164682 442.521758 1584.164682 442.521758 L 1599.059679 472.746307 L 1569.107073 457.312423 Z M 1569.107073 457.312423" dclass="DKDrawableShape" fill="url(#6597418A-FFEB-4767-B20F-561F79B5DE48)"></path>
+                <path d=" M 1576.219004 460.977500 L 1569.106368 457.313115 C 1569.106368 457.313115 1575.564451 456.508946 1579.557731 452.586460 C 1583.551011 448.663974 1584.163978 442.522451 1584.163978 442.522451 L 1599.058974 472.746999 L 1576.219004 460.977500 Z M 1576.219004 460.977500" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+            </g>
+        </g>
+        <ConnectorEndPoint id_target_sticky_spot="D3F74BE1-6F83-4CAF-B33D-34CE17806DB7_32774" is_start="1" location="{1470.3916017969257, 341.75601022252386}"></ConnectorEndPoint>
+        <ConnectorEndPoint id_target_sticky_spot="F2ABD03F-9EB5-40E2-BD83-6E60A94F7CDB_32772" is_start="0" location="{1599.0596793227699, 472.74630621634259}"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#5C03584F-3C73-48A5-B13B-E690A8759667" baseline-shift="0.000000" startOffset="0.000000%"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g enabled="1" ID="95894900-5706-416D-AF1E-D3C614786405" dclass="DiaConnectorStyle">
+            <path d=" M 531.975781 554.555861 L 457.475529 703.556363" dclass="DiaConnectorStylizedPath" fill="none" stroke="#998A95" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g dclass="DiaConnectorArrow">
+                <path ID="tempBoundsRect_1__5DC3B4A2-4720-410D-9926-C772ACDF1A28" d=" M 462.347576 670.215299 L 481.226037 679.654530 L 466.915202 708.276200 L 448.036741 698.836969 Z M 462.347576 670.215299" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+                <path d=" M 461.252183 677.707782 L 462.347576 670.215299 C 462.347576 670.215299 465.205108 676.062353 470.211678 678.565638 C 475.218248 681.068923 481.226037 679.654530 481.226037 679.654530 L 457.475530 703.556364 L 461.252183 677.707782 Z M 461.252183 677.707782" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+                <path d=" M 462.347576 670.215299 C 462.347576 670.215299 465.205108 676.062353 470.211678 678.565638 C 475.218248 681.068923 481.226037 679.654530 481.226037 679.654530 L 457.475530 703.556364 L 462.347576 670.215299 Z M 462.347576 670.215299" dclass="DKDrawableShape" fill="url(#E2623068-2FFA-46CA-A339-275D71464F33)"></path>
+                <path d=" M 461.190321 678.131935 L 462.346692 670.214857 C 462.346692 670.214857 465.204225 676.061911 470.210794 678.565196 C 475.217364 681.068481 481.225154 679.654088 481.225154 679.654088 L 457.474646 703.555922 L 461.190321 678.131935 Z M 461.190321 678.131935" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+            </g>
+        </g>
+        <ConnectorEndPoint id_target_sticky_spot="332D9010-C970-43C7-BB08-CA0887A8A2BD_32773" is_start="1" location="{531.97578072013539, 554.55586070542813}"></ConnectorEndPoint>
+        <ConnectorEndPoint id_target_sticky_spot="B59C8A43-C288-4116-901E-CB4674AE2FA2_32772" is_start="0" location="{457.47552940269486, 703.5563633403093}"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#19A9DE87-656F-4686-8526-D5E093837FBC" baseline-shift="0.000000" startOffset="0.000000%"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g enabled="1" ID="31BD86F4-DE80-43B9-A365-D18ABBB1867F" dclass="DiaConnectorStyle">
+            <path d=" M 577.475563 554.555762 L 651.975849 703.556333" dclass="DiaConnectorStylizedPath" fill="none" stroke="#998A95" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g dclass="DiaConnectorArrow">
+                <path ID="tempBoundsRect_1__67D68C1F-AA35-4BD2-BC94-75481CD18529" d=" M 628.226225 679.654056 L 647.104687 670.214826 L 661.415520 698.836497 L 642.537059 708.275727 Z M 628.226225 679.654056" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+                <path d=" M 633.562976 685.025861 L 628.226225 679.654056 C 628.226225 679.654056 634.618388 680.876263 639.624957 678.372979 C 644.631527 675.869694 647.104687 670.214826 647.104687 670.214826 L 651.975848 703.556333 L 633.562976 685.025861 Z M 633.562976 685.025861" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+                <path d=" M 628.226225 679.654056 C 628.226225 679.654056 634.618388 680.876263 639.624957 678.372979 C 644.631527 675.869694 647.104687 670.214826 647.104687 670.214826 L 651.975848 703.556333 L 628.226225 679.654056 Z M 628.226225 679.654056" dclass="DKDrawableShape" fill="url(#26A3670B-7915-49E1-AEFF-208920F43046)"></path>
+                <path d=" M 633.865181 685.329842 L 628.225341 679.654498 C 628.225341 679.654498 634.617504 680.876705 639.624074 678.373420 C 644.630644 675.870136 647.103803 670.215268 647.103803 670.215268 L 651.974964 703.556775 L 633.865181 685.329842 Z M 633.865181 685.329842" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+            </g>
+        </g>
+        <ConnectorEndPoint id_target_sticky_spot="332D9010-C970-43C7-BB08-CA0887A8A2BD_32774" is_start="1" location="{577.4755633510697, 554.55576183992036}"></ConnectorEndPoint>
+        <ConnectorEndPoint id_target_sticky_spot="EE2F57F9-640E-4B42-9807-57E717770028_32772" is_start="0" location="{651.97584869427453, 703.55633252632981}"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#20C62E0F-2AB1-46BC-8224-1C39A86A2746" baseline-shift="0.000000" startOffset="0.000000%"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g enabled="1" ID="69071332-F246-4ADA-8939-265CC3C07815" dclass="DiaConnectorStyle">
+            <path d=" M 1218.641133 557.309721 L 1170.810246 700.802381" dclass="DiaConnectorStylizedPath" fill="none" stroke="#998A95" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g dclass="DiaConnectorArrow">
+                <path ID="tempBoundsRect_1__E161E8F5-9241-45F7-8339-7BED73D09394" d=" M 1170.908066 670.266304 L 1189.054483 676.315110 L 1179.883878 703.826925 L 1161.737461 697.778120 Z M 1170.908066 670.266304" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+                <path d=" M 1170.885603 677.128513 L 1170.908066 670.266304 C 1170.908066 670.266304 1174.221054 675.145710 1179.033486 676.749854 C 1183.845917 678.353998 1189.054483 676.315110 1189.054483 676.315110 L 1170.810245 700.802381 L 1170.885603 677.128513 Z M 1170.885603 677.128513" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+                <path d=" M 1170.908066 670.266304 C 1170.908066 670.266304 1174.221054 675.145710 1179.033486 676.749854 C 1183.845917 678.353998 1189.054483 676.315110 1189.054483 676.315110 L 1170.810245 700.802381 L 1170.908066 670.266304 Z M 1170.908066 670.266304" dclass="DKDrawableShape" fill="url(#AC4AB008-8F16-4E5F-A2FE-C513A85DDCF4)"></path>
+                <path d=" M 1170.884465 677.516966 L 1170.907217 670.266021 C 1170.907217 670.266021 1174.220205 675.145427 1179.032636 676.749571 C 1183.845068 678.353715 1189.053633 676.314827 1189.053633 676.314827 L 1170.809395 700.802098 L 1170.884465 677.516966 Z M 1170.884465 677.516966" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+            </g>
+        </g>
+        <ConnectorEndPoint id_target_sticky_spot="F0B7AAEE-5C0C-495C-8D05-D4A250F90193_32773" is_start="1" location="{1218.6411326664779, 557.30972089824445}"></ConnectorEndPoint>
+        <ConnectorEndPoint id_target_sticky_spot="8AE3DA5D-6DF0-41A5-9614-33C63E231128_32772" is_start="0" location="{1170.8102458496778, 700.80238134864601}"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#DE8E2A57-CFBA-4E4E-A9C9-39E0DEB40151" baseline-shift="0.000000" startOffset="0.000000%"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g enabled="1" ID="28257BF9-698E-4A04-8289-13311760FF23" dclass="DiaConnectorStyle">
+            <path d=" M 1650.810264 557.309730 L 1698.641160 700.802418" dclass="DiaConnectorStylizedPath" fill="none" stroke="#998A95" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g dclass="DiaConnectorArrow">
+                <path ID="tempBoundsRect_1__71D62F82-4168-4AD6-B95D-55097144F180" d=" M 1678.510525 673.781668 L 1698.534157 667.107124 L 1708.653446 697.464989 L 1688.629815 704.139534 Z M 1678.510525 673.781668" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+                <path d=" M 1683.033951 679.854214 L 1678.510525 673.781668 C 1678.510525 673.781668 1684.665597 675.895579 1689.975866 674.125490 C 1695.286135 672.355400 1698.534157 667.107124 1698.534157 667.107124 L 1698.641162 700.802417 L 1683.033951 679.854214 Z M 1683.033951 679.854214" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+                <path d=" M 1678.510525 673.781668 C 1678.510525 673.781668 1684.665597 675.895579 1689.975866 674.125490 C 1695.286135 672.355400 1698.534157 667.107124 1698.534157 667.107124 L 1698.641162 700.802417 L 1678.510525 673.781668 Z M 1678.510525 673.781668" dclass="DKDrawableShape" fill="url(#E72D5539-2491-4BFE-9A4C-F623B7A237B4)"></path>
+                <path d=" M 1683.290130 680.197878 L 1678.509588 673.781981 C 1678.509588 673.781981 1684.664660 675.895892 1689.974929 674.125802 C 1695.285198 672.355712 1698.533219 667.107436 1698.533219 667.107436 L 1698.640225 700.802730 L 1683.290130 680.197878 Z M 1683.290130 680.197878" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+            </g>
+        </g>
+        <ConnectorEndPoint id_target_sticky_spot="F2ABD03F-9EB5-40E2-BD83-6E60A94F7CDB_32773" is_start="1" location="{1650.8102639735087, 557.30973030632651}"></ConnectorEndPoint>
+        <ConnectorEndPoint id_target_sticky_spot="59C6EDC6-1A51-4A5E-81D3-90460F161ACD_32772" is_start="0" location="{1698.6411598525633, 700.80241794349161}"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#97B8B848-4344-4985-B629-E278B9708FB2" baseline-shift="0.000000" startOffset="0.000000%"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g enabled="1" ID="8BF21B73-F8E8-428A-8C8A-A90A717F0029" dclass="DiaConnectorStyle">
+            <path d=" M 1606.504326 551.388085 L 1502.946899 706.724226" dclass="DiaConnectorStylizedPath" fill="none" stroke="#998A95" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g dclass="DiaConnectorArrow">
+                <path ID="tempBoundsRect_1__C374F470-A9B3-4FB9-9003-F78AE7F34AD8" d=" M 1511.916772 674.244928 L 1529.478659 685.952853 L 1511.728252 712.578462 L 1494.166365 700.870537 Z M 1511.916772 674.244928" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+                <path d=" M 1509.900509 681.543686 L 1511.916772 674.244928 C 1511.916772 674.244928 1514.027000 680.401263 1518.684414 683.506206 C 1523.341828 686.611149 1529.478659 685.952853 1529.478659 685.952853 L 1502.946897 706.724225 L 1509.900509 681.543686 Z M 1509.900509 681.543686" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+                <path d=" M 1511.916772 674.244928 C 1511.916772 674.244928 1514.027000 680.401263 1518.684414 683.506206 C 1523.341828 686.611149 1529.478659 685.952853 1529.478659 685.952853 L 1502.946897 706.724225 L 1511.916772 674.244928 Z M 1511.916772 674.244928" dclass="DKDrawableShape" fill="url(#A5510789-4624-4631-8A39-A9B06DAEB3BB)"></path>
+                <path d=" M 1509.786516 681.956891 L 1511.915950 674.244380 C 1511.915950 674.244380 1514.026178 680.400715 1518.683592 683.505658 C 1523.341006 686.610601 1529.477837 685.952305 1529.477837 685.952305 L 1502.946075 706.723677 L 1509.786516 681.956891 Z M 1509.786516 681.956891" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+            </g>
+        </g>
+        <ConnectorEndPoint id_target_sticky_spot="F2ABD03F-9EB5-40E2-BD83-6E60A94F7CDB_32774" is_start="1" location="{1606.5043258361634, 551.3880850154643}"></ConnectorEndPoint>
+        <ConnectorEndPoint id_target_sticky_spot="E9556790-0F35-408E-A6B9-4E225EF3E693_32772" is_start="0" location="{1502.9468986345169, 706.72422581793387}"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#BAB9E429-30DE-4751-A2E9-E90E55B82BB8" baseline-shift="0.000000" startOffset="0.000000%"></textPath>
+        </text>
+    </g>
+    <g ID="e12_6A92DAB5-C87C-46EA-BA07-1AD5165ADA16" dclass="DiaElement" element_type="e12">
+        <path ID="contour_878D5149-3993-4C93-BE08-56ED08CA24FD" d=" M 914.726171 999.900029 C 886.602935 999.900029 863.725697 977.091186 863.725697 949.056029 C 863.725697 921.021817 886.602935 898.212029 914.726171 898.212029 C 942.847510 898.212029 965.725697 921.021817 965.725697 949.056029 C 965.724748 977.091186 942.847510 999.900029 914.726171 999.900029 L 914.726171 999.900029 Z M 914.726171 999.900029" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+        <path ID="e12_EBD42979-7A67-4705-AE2F-C941C6ACCD42" d=" M 948.035023 915.848136 C 966.430996 934.188348 966.430996 963.923709 948.035023 982.263921 C 929.639053 1000.604136 899.813290 1000.604136 881.417320 982.263921 C 863.021347 963.923709 863.021347 934.188348 881.417320 915.848136 C 899.813290 897.507921 929.639053 897.507921 948.035023 915.848136" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <path ID="e12_8FB856D1-0F01-4AE1-BA34-BDA644CB3A73" d=" M 948.035023 915.848136 C 966.430996 934.188348 966.430996 963.923709 948.035023 982.263921 C 929.639053 1000.604136 899.813290 1000.604136 881.417320 982.263921 C 863.021347 963.923709 863.021347 934.188348 881.417320 915.848136 C 899.813290 897.507921 929.639053 897.507921 948.035023 915.848136" dclass="DKDrawableShape" fill="url(#1001CFDB-71FD-4872-B5A9-11378F1CF0F2)"></path>
+        <path ID="e12_62B5477B-61F9-4DA3-AD1E-EF938B5FEDE9" d=" M 948.035023 915.848136 C 966.430996 934.188348 966.430996 963.923709 948.035023 982.263921 C 929.639053 1000.604136 899.813290 1000.604136 881.417320 982.263921 C 863.021347 963.923709 863.021347 934.188348 881.417320 915.848136 C 899.813290 897.507921 929.639053 897.507921 948.035023 915.848136" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <Hotspots>
+            <StickySpot id_sticky_spot="64A8CB34-5539-40D3-858E-8363AD1997FA_32773" relative_location="{0.383461,-0.320531}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="64A8CB34-5539-40D3-858E-8363AD1997FA_32772" relative_location="{0.157692,-0.474526}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="64A8CB34-5539-40D3-858E-8363AD1997FA_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="64A8CB34-5539-40D3-858E-8363AD1997FA_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="64A8CB34-5539-40D3-858E-8363AD1997FA_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="64A8CB34-5539-40D3-858E-8363AD1997FA_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+        </Hotspots>
+        <g></g>
+    </g>
+    <g ID="e12_A51EED3F-B327-480A-9D2C-22F651E5D695" dclass="DiaElement" element_type="e12">
+        <path ID="contour_DDDB177B-3BA8-4043-BB52-088088CFFF49" d=" M 1154.726171 999.900029 C 1126.602935 999.900029 1103.725697 977.091186 1103.725697 949.056029 C 1103.725697 921.021817 1126.602935 898.212029 1154.726171 898.212029 C 1182.847510 898.212029 1205.725697 921.021817 1205.725697 949.056029 C 1205.724748 977.091186 1182.847510 999.900029 1154.726171 999.900029 L 1154.726171 999.900029 Z M 1154.726171 999.900029" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+        <path ID="e12_E15ECF74-5906-425F-A2EB-B173C226F9AD" d=" M 1188.035023 915.848136 C 1206.430996 934.188348 1206.430996 963.923709 1188.035023 982.263921 C 1169.639053 1000.604136 1139.813290 1000.604136 1121.417320 982.263921 C 1103.021347 963.923709 1103.021347 934.188348 1121.417320 915.848136 C 1139.813290 897.507921 1169.639053 897.507921 1188.035023 915.848136" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <path ID="e12_322740B7-D6B4-44D8-A48E-2D7BA0F36E0C" d=" M 1188.035023 915.848136 C 1206.430996 934.188348 1206.430996 963.923709 1188.035023 982.263921 C 1169.639053 1000.604136 1139.813290 1000.604136 1121.417320 982.263921 C 1103.021347 963.923709 1103.021347 934.188348 1121.417320 915.848136 C 1139.813290 897.507921 1169.639053 897.507921 1188.035023 915.848136" dclass="DKDrawableShape" fill="url(#A8CC4430-DCF3-4C10-BB01-3D2652D6C8A7)"></path>
+        <path ID="e12_C671DCF6-DE50-4CBE-801B-A602FFEFCFF8" d=" M 1188.035023 915.848136 C 1206.430996 934.188348 1206.430996 963.923709 1188.035023 982.263921 C 1169.639053 1000.604136 1139.813290 1000.604136 1121.417320 982.263921 C 1103.021347 963.923709 1103.021347 934.188348 1121.417320 915.848136 C 1139.813290 897.507921 1169.639053 897.507921 1188.035023 915.848136" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <Hotspots>
+            <StickySpot id_sticky_spot="D41DAA20-0943-4F68-AC14-C3714C3C641E_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="D41DAA20-0943-4F68-AC14-C3714C3C641E_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="D41DAA20-0943-4F68-AC14-C3714C3C641E_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="D41DAA20-0943-4F68-AC14-C3714C3C641E_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="D41DAA20-0943-4F68-AC14-C3714C3C641E_32772" relative_location="{0.000000,-0.500000}" position_kind="2"></StickySpot>
+        </Hotspots>
+        <g></g>
+    </g>
+    <g ID="e12_58E23691-7D8F-43A0-BE42-58E1D0735818" dclass="DiaElement" element_type="e12">
+        <path ID="contour_E3ED0539-FFEC-40C3-BB72-DBDFC870C203" d=" M 1354.726171 999.900029 C 1326.602935 999.900029 1303.725697 977.091186 1303.725697 949.056029 C 1303.725697 921.021817 1326.602935 898.212029 1354.726171 898.212029 C 1382.847510 898.212029 1405.725697 921.021817 1405.725697 949.056029 C 1405.724748 977.091186 1382.847510 999.900029 1354.726171 999.900029 L 1354.726171 999.900029 Z M 1354.726171 999.900029" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+        <path ID="e12_586935A3-DC28-4AD4-99C1-565EB958F201" d=" M 1388.035023 915.848136 C 1406.430996 934.188348 1406.430996 963.923709 1388.035023 982.263921 C 1369.639053 1000.604136 1339.813290 1000.604136 1321.417320 982.263921 C 1303.021347 963.923709 1303.021347 934.188348 1321.417320 915.848136 C 1339.813290 897.507921 1369.639053 897.507921 1388.035023 915.848136" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <path ID="e12_DD0C46F8-AA60-4EDF-9668-4CAB15F4399F" d=" M 1388.035023 915.848136 C 1406.430996 934.188348 1406.430996 963.923709 1388.035023 982.263921 C 1369.639053 1000.604136 1339.813290 1000.604136 1321.417320 982.263921 C 1303.021347 963.923709 1303.021347 934.188348 1321.417320 915.848136 C 1339.813290 897.507921 1369.639053 897.507921 1388.035023 915.848136" dclass="DKDrawableShape" fill="url(#2E765837-D8C5-40DF-9EEC-1A0328F3438D)"></path>
+        <path ID="e12_4475F964-07C3-47A4-9456-C36698D55018" d=" M 1388.035023 915.848136 C 1406.430996 934.188348 1406.430996 963.923709 1388.035023 982.263921 C 1369.639053 1000.604136 1339.813290 1000.604136 1321.417320 982.263921 C 1303.021347 963.923709 1303.021347 934.188348 1321.417320 915.848136 C 1339.813290 897.507921 1369.639053 897.507921 1388.035023 915.848136" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <Hotspots>
+            <StickySpot id_sticky_spot="07249F60-6C4A-49F1-8587-0BE20F435973_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="07249F60-6C4A-49F1-8587-0BE20F435973_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="07249F60-6C4A-49F1-8587-0BE20F435973_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="07249F60-6C4A-49F1-8587-0BE20F435973_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+        </Hotspots>
+        <g></g>
+    </g>
+    <g dclass="DiaConnector">
+        <g enabled="1" ID="1E7F5167-B5F6-45F6-9145-449419FEA6E8" dclass="DiaConnectorStyle">
+            <path d=" M 1115.612380 781.650459 L 953.838686 916.461871" dclass="DiaConnectorStylizedPath" fill="none" stroke="#998A95" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g dclass="DiaConnectorArrow">
+                <path ID="tempBoundsRect_1__4D4EB341-C448-4597-8474-C85A6192E595" d=" M 971.665973 887.869018 L 985.178193 904.083681 L 960.595112 924.569582 L 947.082892 908.354919 Z M 971.665973 887.869018" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+                <path d=" M 967.659292 894.294257 L 971.665973 887.869018 C 971.665973 887.869018 971.940313 894.371192 975.523755 898.671322 C 979.107196 902.971453 985.178193 904.083681 985.178193 904.083681 L 953.838686 916.461871 L 967.659292 894.294257 Z M 967.659292 894.294257" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+                <path d=" M 971.665973 887.869018 C 971.665973 887.869018 971.940313 894.371192 975.523755 898.671322 C 979.107196 902.971453 985.178193 904.083681 985.178193 904.083681 L 953.838686 916.461871 L 971.665973 887.869018 Z M 971.665973 887.869018" dclass="DKDrawableShape" fill="url(#18342396-DB88-4340-AFBB-C4FC0AE95C9B)"></path>
+                <path d=" M 967.432609 894.658053 L 971.665341 887.868259 C 971.665341 887.868259 971.939680 894.370433 975.523122 898.670563 C 979.106564 902.970694 985.177560 904.082922 985.177560 904.082922 L 953.838053 916.461112 L 967.432609 894.658053 Z M 967.432609 894.658053" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+            </g>
+        </g>
+        <ConnectorEndPoint id_target_sticky_spot="8AE3DA5D-6DF0-41A5-9614-33C63E231128_32773" is_start="1" location="{1115.6123803804819, 781.65045895132153}"></ConnectorEndPoint>
+        <ConnectorEndPoint id_target_sticky_spot="64A8CB34-5539-40D3-858E-8363AD1997FA_32773" is_start="0" location="{953.83868599182483, 916.46187094186894}"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#8D7292BE-31A9-449F-841C-C72CEE6454E5" baseline-shift="0.000000" startOffset="0.000000%"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g enabled="1" ID="91AE682E-5602-4D13-8FC5-A5215E247CF4" dclass="DiaConnectorStyle">
+            <path d=" M 1190.715855 785.046187 L 1354.725697 898.212029" dclass="DiaConnectorStylizedPath" fill="none" stroke="#998A95" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g dclass="DiaConnectorArrow">
+                <path ID="tempBoundsRect_1__9B4D2C9F-6378-4EF6-AB7B-3144B5F93D7B" d=" M 1322.393844 888.724419 L 1334.380839 871.351816 L 1360.719474 889.525322 L 1348.732479 906.897924 Z M 1322.393844 888.724419" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+                <path d=" M 1329.659460 890.857027 L 1322.393844 888.724419 C 1322.393844 888.724419 1328.583107 886.712812 1331.762059 882.105596 C 1334.941011 877.498380 1334.380839 871.351816 1334.380839 871.351816 L 1354.725696 898.212029 L 1329.659460 890.857027 Z M 1329.659460 890.857027" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+                <path d=" M 1322.393844 888.724419 C 1322.393844 888.724419 1328.583107 886.712812 1331.762059 882.105596 C 1334.941011 877.498380 1334.380839 871.351816 1334.380839 871.351816 L 1354.725696 898.212029 L 1322.393844 888.724419 Z M 1322.393844 888.724419" dclass="DKDrawableShape" fill="url(#6AF227FF-2B3A-4118-A03C-45E4AAF89156)"></path>
+                <path d=" M 1330.070790 890.977607 L 1322.393283 888.725232 C 1322.393283 888.725232 1328.582546 886.713625 1331.761498 882.106409 C 1334.940450 877.499193 1334.380278 871.352629 1334.380278 871.352629 L 1354.725135 898.212843 L 1330.070790 890.977607 Z M 1330.070790 890.977607" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+            </g>
+        </g>
+        <ConnectorEndPoint id_target_sticky_spot="8AE3DA5D-6DF0-41A5-9614-33C63E231128_32775" is_start="1" location="{1190.7158552904696, 785.04618718022994}"></ConnectorEndPoint>
+        <ConnectorEndPoint id_target_sticky_spot="07249F60-6C4A-49F1-8587-0BE20F435973_32771" is_start="0" location="{1354.7256967519795, 898.21202864174006}"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#D03D9AB6-7626-46ED-AAA9-3D12CCA4E449" baseline-shift="0.000000" startOffset="0.000000%"></textPath>
+        </text>
+    </g>
+    <g ID="e12_C13D7CA4-AA05-4D24-B853-113C8BDFAB1B" dclass="DiaElement" element_type="e12">
+        <path ID="contour_74935AC8-8FD2-4DAB-8F24-B229FF0597D8" d=" M 194.726171 799.900029 C 166.602935 799.900029 143.725697 777.091186 143.725697 749.056029 C 143.725697 721.021817 166.602935 698.212029 194.726171 698.212029 C 222.847510 698.212029 245.725697 721.021817 245.725697 749.056029 C 245.724748 777.091186 222.847510 799.900029 194.726171 799.900029 L 194.726171 799.900029 Z M 194.726171 799.900029" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+        <path ID="e12_757EE99D-CA61-4936-B1CE-FE4E7581214E" d=" M 228.035023 715.848136 C 246.430996 734.188348 246.430996 763.923709 228.035023 782.263921 C 209.639053 800.604136 179.813290 800.604136 161.417320 782.263921 C 143.021347 763.923709 143.021347 734.188348 161.417320 715.848136 C 179.813290 697.507921 209.639053 697.507921 228.035023 715.848136" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <path ID="e12_29EFDA3A-26BA-409E-8F8B-08EA1FC5E197" d=" M 228.035023 715.848136 C 246.430996 734.188348 246.430996 763.923709 228.035023 782.263921 C 209.639053 800.604136 179.813290 800.604136 161.417320 782.263921 C 143.021347 763.923709 143.021347 734.188348 161.417320 715.848136 C 179.813290 697.507921 209.639053 697.507921 228.035023 715.848136" dclass="DKDrawableShape" fill="url(#5C700CDE-B294-4A13-8AD7-129CC20EBFFE)"></path>
+        <path ID="e12_D1977ECD-D0FC-4E8B-9DA5-EF0DEBF2164C" d=" M 228.035023 715.848136 C 246.430996 734.188348 246.430996 763.923709 228.035023 782.263921 C 209.639053 800.604136 179.813290 800.604136 161.417320 782.263921 C 143.021347 763.923709 143.021347 734.188348 161.417320 715.848136 C 179.813290 697.507921 209.639053 697.507921 228.035023 715.848136" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <Hotspots>
+            <StickySpot id_sticky_spot="930AE364-7D7F-499C-AF7F-C33EAF7103E2_32773" relative_location="{0.157692,-0.474526}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="930AE364-7D7F-499C-AF7F-C33EAF7103E2_32772" relative_location="{-0.223038,-0.447444}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="930AE364-7D7F-499C-AF7F-C33EAF7103E2_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="930AE364-7D7F-499C-AF7F-C33EAF7103E2_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="930AE364-7D7F-499C-AF7F-C33EAF7103E2_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="930AE364-7D7F-499C-AF7F-C33EAF7103E2_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+        </Hotspots>
+        <g></g>
+    </g>
+    <g ID="e12_47B81496-9992-40C8-AB37-D632653AF037" dclass="DiaElement" element_type="e12">
+        <path ID="contour_649C88C5-6428-4BF3-8E02-7590D39AA5BE" d=" M 314.726171 999.900029 C 286.602935 999.900029 263.725697 977.091186 263.725697 949.056029 C 263.725697 921.021817 286.602935 898.212029 314.726171 898.212029 C 342.847510 898.212029 365.725697 921.021817 365.725697 949.056029 C 365.724748 977.091186 342.847510 999.900029 314.726171 999.900029 L 314.726171 999.900029 Z M 314.726171 999.900029" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+        <path ID="e12_49B30241-E4AC-46F8-954A-C489E0992191" d=" M 348.035023 915.848136 C 366.430996 934.188348 366.430996 963.923709 348.035023 982.263921 C 329.639053 1000.604136 299.813290 1000.604136 281.417320 982.263921 C 263.021347 963.923709 263.021347 934.188348 281.417320 915.848136 C 299.813290 897.507921 329.639053 897.507921 348.035023 915.848136" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <path ID="e12_9E64D4BD-8F60-4BD5-AD46-970E667C5808" d=" M 348.035023 915.848136 C 366.430996 934.188348 366.430996 963.923709 348.035023 982.263921 C 329.639053 1000.604136 299.813290 1000.604136 281.417320 982.263921 C 263.021347 963.923709 263.021347 934.188348 281.417320 915.848136 C 299.813290 897.507921 329.639053 897.507921 348.035023 915.848136" dclass="DKDrawableShape" fill="url(#906C66D9-D644-435D-A5F4-FBDEDE55A8CD)"></path>
+        <path ID="e12_010E6869-6A13-40B5-8F4D-CB74AFE33E60" d=" M 348.035023 915.848136 C 366.430996 934.188348 366.430996 963.923709 348.035023 982.263921 C 329.639053 1000.604136 299.813290 1000.604136 281.417320 982.263921 C 263.021347 963.923709 263.021347 934.188348 281.417320 915.848136 C 299.813290 897.507921 329.639053 897.507921 348.035023 915.848136" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <Hotspots>
+            <StickySpot id_sticky_spot="72204999-4F5E-4EEF-B594-FFEDE87CAECE_32773" relative_location="{0.256611,-0.428997}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="72204999-4F5E-4EEF-B594-FFEDE87CAECE_32772" relative_location="{0.223038,-0.447444}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="72204999-4F5E-4EEF-B594-FFEDE87CAECE_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="72204999-4F5E-4EEF-B594-FFEDE87CAECE_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="72204999-4F5E-4EEF-B594-FFEDE87CAECE_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="72204999-4F5E-4EEF-B594-FFEDE87CAECE_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+        </Hotspots>
+        <g></g>
+    </g>
+    <g ID="e12_E63379D9-4D88-44A4-A831-3CC44CA65011" dclass="DiaElement" element_type="e12">
+        <path ID="contour_A7A91F46-2C15-4FAB-B914-36022BDA91D4" d=" M 514.726171 999.900029 C 486.602935 999.900029 463.725697 977.091186 463.725697 949.056029 C 463.725697 921.021817 486.602935 898.212029 514.726171 898.212029 C 542.847510 898.212029 565.725697 921.021817 565.725697 949.056029 C 565.724748 977.091186 542.847510 999.900029 514.726171 999.900029 L 514.726171 999.900029 Z M 514.726171 999.900029" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+        <path ID="e12_185C0B07-3280-479E-B49F-AC620B46FCE8" d=" M 548.035023 915.848136 C 566.430996 934.188348 566.430996 963.923709 548.035023 982.263921 C 529.639053 1000.604136 499.813290 1000.604136 481.417320 982.263921 C 463.021347 963.923709 463.021347 934.188348 481.417320 915.848136 C 499.813290 897.507921 529.639053 897.507921 548.035023 915.848136" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <path ID="e12_D354EC1A-8B8D-41A9-A4DF-43A3F93BEF60" d=" M 548.035023 915.848136 C 566.430996 934.188348 566.430996 963.923709 548.035023 982.263921 C 529.639053 1000.604136 499.813290 1000.604136 481.417320 982.263921 C 463.021347 963.923709 463.021347 934.188348 481.417320 915.848136 C 499.813290 897.507921 529.639053 897.507921 548.035023 915.848136" dclass="DKDrawableShape" fill="url(#C084C6F1-26A5-4CD7-B3B3-4BA72DBE6F4E)"></path>
+        <path ID="e12_0949B267-994B-449C-92F9-B7334E9B551D" d=" M 548.035023 915.848136 C 566.430996 934.188348 566.430996 963.923709 548.035023 982.263921 C 529.639053 1000.604136 499.813290 1000.604136 481.417320 982.263921 C 463.021347 963.923709 463.021347 934.188348 481.417320 915.848136 C 499.813290 897.507921 529.639053 897.507921 548.035023 915.848136" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+        <Hotspots>
+            <StickySpot id_sticky_spot="604E8FAC-36BF-4D2D-9BC9-73CE2BE8DE6D_32773" relative_location="{-0.185210,-0.464445}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="604E8FAC-36BF-4D2D-9BC9-73CE2BE8DE6D_32772" relative_location="{0.223038,-0.447444}" position_kind="2"></StickySpot>
+            <StickySpot id_sticky_spot="604E8FAC-36BF-4D2D-9BC9-73CE2BE8DE6D_32768" relative_location="{-0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="604E8FAC-36BF-4D2D-9BC9-73CE2BE8DE6D_32769" relative_location="{0.500000,0.000000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="604E8FAC-36BF-4D2D-9BC9-73CE2BE8DE6D_32770" relative_location="{0.000000,0.500000}" position_kind="0"></StickySpot>
+            <StickySpot id_sticky_spot="604E8FAC-36BF-4D2D-9BC9-73CE2BE8DE6D_32771" relative_location="{0.000000,-0.500000}" position_kind="0"></StickySpot>
+        </Hotspots>
+        <g></g>
+    </g>
+    <g dclass="DiaConnector">
+        <g enabled="1" ID="C5257A93-F28A-4425-83F1-B849AF9EE062" dclass="DiaConnectorStyle">
+            <path d=" M 258.641133 557.309721 L 210.810246 700.802381" dclass="DiaConnectorStylizedPath" fill="none" stroke="#998A95" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g dclass="DiaConnectorArrow">
+                <path ID="tempBoundsRect_1__1CB49996-8498-4558-BAFE-60CF94F0135A" d=" M 210.918185 667.107400 L 230.941817 673.781944 L 220.822529 704.139809 L 200.798897 697.465265 Z M 210.918185 667.107400" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+                <path d=" M 210.893399 674.679492 L 210.918185 667.107400 C 210.918185 667.107400 214.573896 672.491572 219.884165 674.261662 C 225.194435 676.031751 230.941817 673.781944 230.941817 673.781944 L 210.810244 700.802381 L 210.893399 674.679492 Z M 210.893399 674.679492" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+                <path d=" M 210.918185 667.107400 C 210.918185 667.107400 214.573896 672.491572 219.884165 674.261662 C 225.194435 676.031751 230.941817 673.781944 230.941817 673.781944 L 210.810244 700.802381 L 210.918185 667.107400 Z M 210.918185 667.107400" dclass="DKDrawableShape" fill="url(#73BA7020-8ABB-417A-8575-8BB5A4C08978)"></path>
+                <path d=" M 210.892143 675.108130 L 210.917248 667.107087 C 210.917248 667.107087 214.572959 672.491259 219.883228 674.261349 C 225.193497 676.031439 230.940880 673.781631 230.940880 673.781631 L 210.809307 700.802069 L 210.892143 675.108130 Z M 210.892143 675.108130" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+            </g>
+        </g>
+        <ConnectorEndPoint id_target_sticky_spot="A9F3C086-D6EF-427B-AFDA-B4096C2EE9C1_32773" is_start="1" location="{258.64113266647797, 557.30972089824434}"></ConnectorEndPoint>
+        <ConnectorEndPoint id_target_sticky_spot="930AE364-7D7F-499C-AF7F-C33EAF7103E2_32773" is_start="0" location="{210.81024584967747, 700.80238134864601}"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#6E2F891F-7357-4093-910C-BF9EB1148ED8" baseline-shift="0.000000" startOffset="0.000000%"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g enabled="1" ID="BBCBD9C9-E9BE-43D4-B50A-FABFC9246C92" dclass="DiaConnectorStyle">
+            <path d=" M 408.551261 792.680088 L 340.899998 905.432194" dclass="DiaConnectorStylizedPath" fill="none" stroke="#998A95" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g dclass="DiaConnectorArrow">
+                <path ID="tempBoundsRect_1__8DF65FFF-25B7-4A97-8086-E89B91F9F0B7" d=" M 348.314837 872.563005 L 366.413735 883.422344 L 349.949871 910.862117 L 331.850972 900.002778 Z M 348.314837 872.563005" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+                <path d=" M 346.648023 879.949406 L 348.314837 872.563005 C 348.314837 872.563005 350.715504 878.611999 355.515333 881.491897 C 360.315163 884.371795 366.413735 883.422344 366.413735 883.422344 L 340.899998 905.432194 L 346.648023 879.949406 Z M 346.648023 879.949406" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+                <path d=" M 348.314837 872.563005 C 348.314837 872.563005 350.715504 878.611999 355.515333 881.491897 C 360.315163 884.371795 366.413735 883.422344 366.413735 883.422344 L 340.899998 905.432194 L 348.314837 872.563005 Z M 348.314837 872.563005" dclass="DKDrawableShape" fill="url(#F4DB649C-A3E0-4BD0-95FB-C9F5B01C9E38)"></path>
+                <path d=" M 346.553813 880.367565 L 348.313990 872.562496 C 348.313990 872.562496 350.714657 878.611491 355.514486 881.491389 C 360.314316 884.371286 366.412888 883.421836 366.412888 883.421836 L 340.899151 905.431685 L 346.553813 880.367565 Z M 346.553813 880.367565" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+            </g>
+        </g>
+        <ConnectorEndPoint id_target_sticky_spot="B59C8A43-C288-4116-901E-CB4674AE2FA2_32773" is_start="1" location="{408.55126099015337, 792.68008824478363}"></ConnectorEndPoint>
+        <ConnectorEndPoint id_target_sticky_spot="72204999-4F5E-4EEF-B594-FFEDE87CAECE_32773" is_start="0" location="{340.89999769963742, 905.4321937289767}"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#55173736-E6F6-4CAB-BB74-61F882D194AB" baseline-shift="0.000000" startOffset="0.000000%"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g enabled="1" ID="0135D35B-78F3-4304-B87E-32E163B60AE6" dclass="DiaConnectorStyle">
+            <path d=" M 453.617135 796.284625 L 495.834287 901.827505" dclass="DiaConnectorStylizedPath" fill="none" stroke="#998A95" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g dclass="DiaConnectorArrow">
+                <path ID="tempBoundsRect_1__48B94BD6-0A2E-44E4-9F71-8C70A35A0E19" d=" M 474.151677 876.035495 L 493.748813 868.196641 L 505.633314 897.907895 L 486.036178 905.746749 Z M 474.151677 876.035495" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+                <path d=" M 479.023889 881.831937 L 474.151677 876.035495 C 474.151677 876.035495 480.420261 877.784320 485.617423 875.705455 C 490.814585 873.626590 493.748813 868.196641 493.748813 868.196641 L 495.834287 901.827505 L 479.023889 881.831937 Z M 479.023889 881.831937" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+                <path d=" M 474.151677 876.035495 C 474.151677 876.035495 480.420261 877.784320 485.617423 875.705455 C 490.814585 873.626590 493.748813 868.196641 493.748813 868.196641 L 495.834287 901.827505 L 474.151677 876.035495 Z M 474.151677 876.035495" dclass="DKDrawableShape" fill="url(#00239716-1660-48D4-AB8A-DC1F2B0B5B43)"></path>
+                <path d=" M 479.299806 882.159964 L 474.150760 876.035862 C 474.150760 876.035862 480.419343 877.784687 485.616506 875.705822 C 490.813668 873.626957 493.747896 868.197008 493.747896 868.197008 L 495.833370 901.827872 L 479.299806 882.159964 Z M 479.299806 882.159964" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+            </g>
+        </g>
+        <ConnectorEndPoint id_target_sticky_spot="B59C8A43-C288-4116-901E-CB4674AE2FA2_32774" is_start="1" location="{453.61713517594387, 796.28462470165073}"></ConnectorEndPoint>
+        <ConnectorEndPoint id_target_sticky_spot="604E8FAC-36BF-4D2D-9BC9-73CE2BE8DE6D_32773" is_start="0" location="{495.83428743861555, 901.82750535832997}"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#6D71A3C6-AC6A-424C-AD8D-C17A15EA12F6" baseline-shift="0.000000" startOffset="0.000000%"></textPath>
+        </text>
+    </g>
+    <g dclass="DiaConnector">
+        <g enabled="1" ID="3CE305B9-DE68-40AC-8A69-034AB06A57EF" dclass="DiaConnectorStyle">
+            <path d=" M 1154.725697 799.900029 L 1154.725697 898.212029" dclass="DiaConnectorStylizedPath" fill="none" stroke="#998A95" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g dclass="DiaConnectorArrow">
+                <path ID="tempBoundsRect_1__6E577315-B8ED-4AAB-9AB1-1154296463F9" d=" M 1145.162143 869.212029 L 1164.290146 869.212029 L 1164.290146 898.212029 L 1145.162143 898.212029 Z M 1145.162143 869.212029" dclass="DKDrawableShape" fill-opacity="0.000000" fill="#000000"></path>
+                <path d=" M 1147.310854 875.729194 L 1145.162143 869.212029 C 1145.162143 869.212029 1149.848123 872.793381 1154.920871 872.793381 C 1159.993619 872.793381 1164.290146 869.212029 1164.290146 869.212029 L 1154.725697 898.212029 L 1147.310854 875.729194 Z M 1147.310854 875.729194" dclass="DKDrawableShape" stroke="#998A95" stroke-opacity="1.000000" stroke-width="3.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+                <path d=" M 1145.162143 869.212029 C 1145.162143 869.212029 1149.848123 872.793381 1154.920871 872.793381 C 1159.993619 872.793381 1164.290146 869.212029 1164.290146 869.212029 L 1154.725697 898.212029 L 1145.162143 869.212029 Z M 1145.162143 869.212029" dclass="DKDrawableShape" fill="url(#5F5BB58F-7A0F-41DC-8632-E27F48B2DF90)"></path>
+                <path d=" M 1147.432614 876.098074 L 1145.161248 869.212029 C 1145.161248 869.212029 1149.847228 872.793381 1154.919976 872.793381 C 1159.992724 872.793381 1164.289250 869.212029 1164.289250 869.212029 L 1154.724801 898.212029 L 1147.432614 876.098074 Z M 1147.432614 876.098074" dclass="DKDrawableShape" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.000000" fill="#000000" stroke-linecap="butt" fill-opacity="0.000000" stroke-linejoin="miter"></path>
+            </g>
+        </g>
+        <ConnectorEndPoint id_target_sticky_spot="8AE3DA5D-6DF0-41A5-9614-33C63E231128_32776" is_start="1" location="{1154.7256967519795, 799.90002863952111}"></ConnectorEndPoint>
+        <ConnectorEndPoint id_target_sticky_spot="D41DAA20-0943-4F68-AC14-C3714C3C641E_32772" is_start="0" location="{1154.7256967519795, 898.21202864385077}"></ConnectorEndPoint>
+        <text style="font-family:Helvetica; font-size:14.000000; fill: #000000;">
+            <textPath xlink:href="#30FF0BB5-9F78-468C-B037-25364D4F713A" baseline-shift="0.000000" startOffset="0.000000%"></textPath>
+        </text>
+    </g>
+</svg>
